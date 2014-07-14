@@ -1,0 +1,11 @@
+---
+layout: post
+title: Skype on Dexpot
+date: 2012-07-17 16:21
+author: terrehbyte
+comments: true
+categories: [computers, dexpot, skype, software, workaround]
+---
+Skype is rather fickle when it comes to running alongside an installation of Dexpot. When you have more than one virtual desktop, it tends to refuse to launch on more than one virtual desktop. Though this isn't exactly ideal, one way to workaround that issue is to force Dexpot to replicate it throughout all or certain virtual desktops.
+
+<p style="text-align:left;"><a href="http://terrehbyte.files.wordpress.com/2012/07/screenshot.png"><img class="wp-image-351 aligncenter" title="Dexpot's Context Menu for Skype" src="http://terrehbyte.files.wordpress.com/2012/07/screenshot.png" alt="Right click on Skype's title-bar or window in the Desktop Pager." width="396" height="281" /></a>Dexpot users who enable the Desktop Pager plugin will be able to right click on Skype in the pager and tell it to copy Skype to all or certain virtual desktops. Other users will be able to right click on Skype's titlebar (i.e. the bar at the top of any window) and perform the same set of actions to copy Skype to individual or all virtual desktops. This also solves the problem regarding Skype and Dexpot when Skype stops functioning properly when opened in more than one virtual desktop.</p>
