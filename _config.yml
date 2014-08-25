@@ -1,9 +1,10 @@
 # Site settings
-title: terrehbyte
+title: terrehbyte | Terry Nguyen
 email: terreh@terrehbyte.com
 description: "If you're reading this, then it means that I'm actually putting work into getting the Jekyll variant of my website working!"
 baseurl: ""
 url: "http://github.terrehbyte.com"
+webmaster_realname: Terry Nguyen
 twitter_username: terrehbyte
 github_username:  terrehbyte
 
