@@ -2,6 +2,7 @@
 layout: page
 title: about me
 permalink: /about me/
+navbarid: 0
 author: terrehbyte
 ---
 

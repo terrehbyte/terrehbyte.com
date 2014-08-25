@@ -2,6 +2,7 @@
 layout: page
 title: let's talk
 permalink: /lets talk/
+navbarid: 3
 author: terrehbyte
 ---
 Hit me up at [ask.fm](http://ask.fm/terrehbyte) if you've got something you don't mind sharing!
