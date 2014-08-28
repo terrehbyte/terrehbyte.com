@@ -1,3 +1,8 @@
+---
+
+---
+
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -148,6 +153,12 @@ a:visited { color: #205caa; }
   background-color: #fff;
 }
 
+.page-content img
+{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/

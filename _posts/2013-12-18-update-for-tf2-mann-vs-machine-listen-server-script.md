@@ -12,4 +12,4 @@ The biggest change would be the transition towards renaming the map name aliases
 
 Finally, support was added for all of the other missions that are available from the "boot camp" menu in Team Fortress 2's MvM matchmaking system. A quick look at the population files in the game files made it easier to get the names of other missions that can be loaded into the game.
 
-As always, the script is available on <a href="https://github.com/terrehbyte/mvm-listenserver-script">Github and contributions are welcome</a>.
+As always, the script is available on [Github and contributions are welcome](https://github.com/terrehbyte/mvm-listenserver-script).
