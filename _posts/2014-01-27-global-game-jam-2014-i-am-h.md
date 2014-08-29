@@ -5,6 +5,7 @@ date: 2014-01-27 19:32
 author: terrehbyte
 comments: true
 categories: [downloads, gamejam, global game jam, postmortum, team]
+excerpt: "My first participation in Global Game Jam marks my second time working as in a team with the Unity engine. This time proved especially interesting since I got a chance to work with people roughly around my age that had experience and skills to work with. Until then, the majority of any group work had either been on school assignments for general studies or in teams with less than motivated or enthusiastic people."
 ---
 ![First level of 'I Am H', my group's GGJ2014 entry]({{ site.baseurl }}/images/posts/I_Am_H.png)
 
