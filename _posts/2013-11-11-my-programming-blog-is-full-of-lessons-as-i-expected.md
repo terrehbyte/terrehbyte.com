@@ -13,7 +13,7 @@ Working with Value
 
 I'm not a graphic designer, but it doesn't take one to see what's wrong here. When I tried to revise my article about taking full page screenshots in Firefox, I noticed that I may have made a grave mistake.
 
-![Can you spot the problem in my layout?]({{ site.baseurl }}/images/posts/ContrastA.png)
+![Can you spot the problem in my layout?]({{ site.baseurl }}/images/posts/contrastA.png)
 Spot the problem?
 <p style="text-align:left;">My super cool captures of my blog taken while I demonstrate the aforementioned functionality in Firefox are so clear, that it could be mistaken as a broken webpage rendering or confusing the most technologically illiterate but learning netizen. Thankfully, I only tore a few hairs out when attempting to come to terms with capturing desktop movement for the third time when I realized that I might have an easy fix on my hands!</p>
 
