@@ -279,6 +279,27 @@ a:visited { color: #205caa; }
 
 .post pre.terminal code { background-color: #333; }
 
+.pagination
+{
+  text-align: center;
+}
+
+.pagination_step
+{
+  margin: 20px;
+}
+
+.pagination_step_inactive
+{
+  margin: 20px;
+  color: Gray;
+}
+
+.pagination_pageno
+{
+  font-style: italic;
+}
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
