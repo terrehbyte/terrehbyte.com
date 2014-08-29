@@ -7,7 +7,7 @@ url: "http://github.terrehbyte.com"
 webmaster_realname: Terry Nguyen
 twitter_username: terrehbyte
 github_username:  terrehbyte
-paginate: 5
+paginate: 7
 
 # Build settings
 markdown: redcarpet

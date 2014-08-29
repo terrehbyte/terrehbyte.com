@@ -181,6 +181,11 @@ a:visited { color: #205caa; }
   color: #818181;
 }
 
+.posts .post-excerpt
+{
+  font-size: 13px;
+}
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
