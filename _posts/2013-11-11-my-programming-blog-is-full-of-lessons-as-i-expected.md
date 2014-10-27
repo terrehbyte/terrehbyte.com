@@ -11,12 +11,12 @@ After starting to commit to a more regular tweeting, blogging, and status updati
 Working with Value
 ------------------
 
-I'm not a graphic designer, but it doesn't take one to see what's wrong here. When I tried to revise my article about taking full page screenshots in Firefox, I noticed that I may have made a grave mistake.
+I'm not a graphic designer, but it doesn't take one to see what's wrong here. When I tried to revise my article about taking full page screenshots in Firefox, I noticed that I may have made a grave mistake.  
 
-![Can you spot the problem in my layout?]({{ site.baseurl }}/images/posts/contrastA.png)
-Spot the problem?
-<p style="text-align:left;">My super cool captures of my blog taken while I demonstrate the aforementioned functionality in Firefox are so clear, that it could be mistaken as a broken webpage rendering or confusing the most technologically illiterate but learning netizen. Thankfully, I only tore a few hairs out when attempting to come to terms with capturing desktop movement for the third time when I realized that I might have an easy fix on my hands!</p>
+![Can you spot the problem in my layout?](/images/posts/contrastA.png)
 
+My super cool captures of my blog taken while I demonstrate the aforementioned functionality in Firefox are so clear, that it could be mistaken as a broken webpage rendering or confusing the most technologically illiterate but learning netizen. Thankfully, I only tore a few hairs out when attempting to come to terms with capturing desktop movement for the third time when I realized that I might have an easy fix on my hands!  
 
-<a href="http://terrehbyte.files.wordpress.com/2013/11/ibzo6vgs94uzu6.png"><img class="size-large wp-image-4054 " style="border:2px solid black;" alt="My Firefox SNAFU Fixed" src="http://terrehbyte.files.wordpress.com/2013/11/ibzo6vgs94uzu6.png?w=545" width="545" height="306" /></a> Ta-daaaah![/caption]
-<p style="text-align:left;">Black borders! However, it took a good 15 minutes for me to find a nice border width. It doesn't help that I kept refreshing an old preview of it too, so there goes even more time down the drain. Oh well. I learned how to use <a href="http://www.cockos.com/licecap/" target="_blank">LICEcap</a> though, some nice software I picked up some time ago off of <a href="http://reddit.com/r/GameDev" target="_blank">/r/gamedev</a>.</p>
+![Black borders!](/images/posts/contrastA.png)
+
+Black borders! However, it took a good 15 minutes for me to find a nice border width. It doesn't help that I kept refreshing an old preview of it too, so there goes even more time down the drain. Oh well. I learned how to use [LICEcap](http://www.cockos.com/licecap/) though, some nice software I picked up a while back.  

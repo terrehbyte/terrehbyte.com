@@ -15,23 +15,26 @@ Should you opt for the paid version, you will gain access to all features that �
 3. ...protect yourself from viruses hiding in torrents.
 4. ...securely access your files from across the globe.
 
-You'll get the features listed above for getting the paid version of µTorrent. I'm not buying the paid version because I don't want to pay, nor is it because I'll just pirate it, but simply because I don't need my BitTorrent client to do that. All I need are stability and security fixes which will come to the free version. Everything else can be done through methods that don't cost a thing.
-<h3>How do I it without paying a thing?</h3>
-1. <a href="http://winff.org/html_new/">WinFF</a> and <a href="http://handbrake.fr/">Handbrake</a> are both capable of converting my media from one format to another.
+You'll get the features listed above for getting the paid version of µTorrent. I'm not buying the paid version because I don't want to pay, nor is it because I'll just pirate it, but simply because I don't need my BitTorrent client to do that. All I need are stability and security fixes which will come to the free version. Everything else can be done through methods that don't cost a thing.  
 
-2. <a href="http://cccp-project.net/">CCCP</a> or <a href="http://www.videolan.org/vlc/index.html">VLC</a> are both capable of playing virtually any kind of media that I'm going to come across. CCCP is often preferred for playing anime, though VLC Media Player works almost if not just as well as CCCP and is cross-platform whereas CCCP is only available on Windows.
+###How do I it without paying a thing?
+[WinFF](http://winff.org/html_new) and [Handbrake](http://handbrake.fr) are both capable of converting my media from one format to another.  
 
-3. <a href="http://windows.microsoft.com/en-US/windows/products/security-essentials">Microsoft Security Essentials</a> is a fine anti-virus provided free* of charge by Microsoft. (I would like to&nbsp; add that it asks me about potential threats instead of taking immediate action as I've requested.)
+[CCCP](http://cccp-project.net/) or [VLC](http://www.videolan.org/vlc/index.html) are both capable of playing virtually any kind of media that I'm going to come across. CCCP is often preferred for playing anime, though VLC Media Player works almost if not just as well as CCCP and is cross-platform whereas CCCP is only available on Windows.  
 
-<a href="http://www.safer-networking.org/dl/">Spybot Search &amp; Destroy</a> protects me from unwanted adware and spyware.
+[Microsoft Security Essentials](http://windows.microsoft.com/en-US/windows/products/security-essentials) is a fine anti-virus provided free* of charge by Microsoft. (I would like to add that it asks me about potential threats instead of taking immediate action as I've requested.)  
 
-<a href="http://www.malwarebytes.org/">Malwarebytes</a> also has my back should I come across something that manages to slip by.
+[Spybot Search & Destroy](http://www.safer-networking.org/dl/) protects me from unwanted adware and spyware.  
 
-4. I don't even know where to start when talking about securely accessing files. <a href="https://secure.logmein.com/">LogMeIn</a> and <a href="http://www.teamviewer.com/en/index.aspx">Teamviewer</a> will let you access your computer or files from another computer, while more computer savvy people may be able to SSH in and get at what they want.
+[Malwarebytes](http://www.malwarebytes.org/) also has my back should I come across something that manages to slip by.  
 
-You might even just redownload what you want from your home computer while you're away from home. Unless they're going to eat up your home connection by downloading and then reuploading the downloaded file to a cloud service that would be faster than downloading the torrent again, this perk isn't that useful.
+I don't even know where to start when talking about securely accessing files. [LogMeIn](https://secure.logmein.com/) and [Teamviewer](http://www.teamviewer.com/en/index.aspx) will let you access your computer or files from another computer, while more computer savvy people may be able to SSH in and get at what they want.  
 
-On a related note, more and more things are coming to the cloud, so accessing your data from anywhere has never been easier given how connected certain places of the world are with one another. We, on a global and physical scale, are closer together than we ever have been.
+You might even just redownload what you want from your home computer while you're away from home. Unless they're going to eat up your home connection by downloading and then reuploading the downloaded file to a cloud service that would be faster than downloading the torrent again, this perk isn't that useful.  
 
-Did I mention all of the programs I mentioned above (including <a href="http://www.utorrent.com/">µTorrent</a>) are free or have free versions full of the core features you need for private/individual use?
-*Microsoft requires that you own a legitimate version of Microsoft Windows to download and make use of their otherwise free anti-virus program. Of course, you could always falsify your copy's legitimacy, but who does that? You will need a special enterprise version for companies that wish to protect more than 10 computers.
+On a related note, more and more things are coming to the cloud, so accessing your data from anywhere has never been easier given how connected certain places of the world are with one another. We, on a global and physical scale, are closer together than we ever have been.  
+
+Did I mention all of the programs I mentioned above are free or have free versions full of the core features you need for private/individual use?  
+
+**Microsoft requires that you own a legitimate version of Microsoft Windows to download and make use of their otherwise free anti-virus program. Of course, you could always falsify your copy's legitimacy, but who does that?  
+You will need a special enterprise version for companies that wish to protect more than 10 computers.*  
