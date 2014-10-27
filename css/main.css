@@ -234,6 +234,11 @@ a:visited { color: #205caa; }
   padding: 0.5em 0.5em;
 }
 
+.posts .post-excerpt img
+{
+  max-height: 8em;
+}
+
 
 /* Post styles */
 /* ----------------------------------------------------------*/
