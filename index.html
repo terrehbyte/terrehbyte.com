@@ -4,7 +4,8 @@ layout: default
 
 <div class="home">
 
-  <!-- Loop over paginated posts -->
+  <!-- Loop over paginated posts   
+  {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 50 }} -->
   <ul class="posts">
     {% for post in paginator.posts %}
       <li>

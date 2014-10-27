@@ -5,6 +5,7 @@ date: 2013-08-25 19:00
 author: terrehbyte
 comments: true
 categories: [believe, college, doubt, personal, reflection, time, work]
+excerpt: "If you are reading this, then it can only mean one of two things: either you're Terry in two years or you're not Terry and you're reading this for some reason. Either is fine with this Terry, at the very least."
 ---
 To Myself:  
 

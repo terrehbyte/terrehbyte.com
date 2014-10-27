@@ -5,6 +5,7 @@ date: 2013-08-14 19:13
 author: terrehbyte
 comments: true
 categories: [accessories, fixes, fixes, headsets]
+excerpt: If you’re the lucky owner of a Plantronics GameCom 377 or 367, you might have discovered that your headset is cracking somewhere along the headband.
 ---
 ![Not Clamped](http://terrehbyte.files.wordpress.com/2013/08/not-clamped.png)
 
