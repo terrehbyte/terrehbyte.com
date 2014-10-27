@@ -11,7 +11,7 @@ post-maxwidth: 800px;
   padding: 0;
 }
 
-a, p, span
+a, p, span, li
 {
   color: gray;
 }
