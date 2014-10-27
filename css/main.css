@@ -11,7 +11,7 @@ post-maxwidth: 800px;
   padding: 0;
 }
 
-a, p
+a, p, span
 {
   color: gray;
 }
@@ -26,7 +26,11 @@ body {
   background-color: #0e0e0e;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+  color: #8c8c7d;
+}
 
 a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
@@ -349,7 +353,7 @@ a:visited { color: #205caa; }
 .pagination_step_inactive
 {
   margin: 20px;
-  color: Gray;
+  opacity: .25;
 }
 
 .pagination_pageno
