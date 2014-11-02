@@ -366,6 +366,17 @@ a:visited { color: #205caa; }
   font-style: italic;
 }
 
+/* Comments */
+/* --------------------------------------------------------- */
+
+.post-comments
+{
+  background-color: #141414;
+  padding: 1em 1em;
+}
+
+
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
