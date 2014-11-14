@@ -6,6 +6,13 @@ post-maxwidth: 800px;
 /* Base */
 /* ----------------------------------------------------------*/
 
+::selection {
+  background: #462c03; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #462c03; /* Gecko Browsers */
+}
+
 * {
   margin: 0;
   padding: 0;
