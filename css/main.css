@@ -96,6 +96,9 @@ a:visited { color: #205caa; }
   margin-left: 20px;
   color: #727272;
   letter-spacing: -.5px;
+  /* Box Highlight */
+  padding: 0.2em 0.5em;
+  background: #202020;
 }
 
 /* Site footer */
@@ -199,6 +202,13 @@ a:visited { color: #205caa; }
   display: block; /*for the future when you might want even/odd coloring for each post entry*/
 }
 
+/*
+.posts li:nth-child(even)
+{
+    background-color: #0c0c0c;
+}
+*/
+
 .posts .post-date
 {
   display: block;
@@ -250,6 +260,8 @@ a:visited { color: #205caa; }
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
+  background-color: #242424;
+  padding: 0.125em;
 }
 
 .post-header .meta {
@@ -272,6 +284,8 @@ a:visited { color: #205caa; }
   line-height: 1;
   font-weight: 300;
   margin: 40px 0 20px;
+  background-color: #1c1c1c;
+  padding: 0.125em;
 }
 
 .post-content h2 {
