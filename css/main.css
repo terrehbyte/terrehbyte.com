@@ -1,7 +1,9 @@
 ---
-page-maxwidth: 800px;
-post-maxwidth: 800px;
+page-maxwidth: 10em;
+post-maxwidth: 10em;
 ---
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext);
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -27,7 +29,7 @@ html, body { height: 100%; }
 
 body {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-weight: 300;
   background-color: #0e0e0e;
@@ -37,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: 400;
   color: #8c8c7d;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a         { color: #2a7ae2; text-decoration: none; }
@@ -49,7 +52,7 @@ a:visited { color: #205caa; }
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
+  max-width: 700px;
   //padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
@@ -69,6 +72,7 @@ a:visited { color: #205caa; }
   min-height: 56px;
   /*background-color: #333;*/
   //background-color: #232323;
+  background-color: #191919;
 }
 
 #headerlogo {
@@ -179,7 +183,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0px;
+  padding: 3em 2em;
   background-color: #141414;
 }
 
@@ -205,7 +209,7 @@ a:visited { color: #205caa; }
 
 .posts li
 {
-  padding-bottom: 30px;
+  padding-bottom: 3.5em;
   display: block; /*for the future when you might want even/odd coloring for each post entry*/
 }
 
@@ -226,16 +230,16 @@ a:visited { color: #205caa; }
 
 .posts .post-link
 {
-
   position: relative;
   z-index: 1;
-  font-size: 24px;
+  font-size: 26px;
   letter-spacing: -1px;
   line-height: 1;
   
   padding: 0.2em 0.5em;
   background: #202020;
   color: #87d778;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .posts .post-excerpt
@@ -248,7 +252,7 @@ a:visited { color: #205caa; }
   
   background: #2d2d2d;
   color: #6871ae;
-  padding: 0.5em 0.5em;
+  padding: 1em 1em;
 }
 
 .posts .post-excerpt img
@@ -466,8 +470,7 @@ a:visited { color: #205caa; }
 /* media queries */
 /* ----------------------------------------------------------*/
 
-
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 39.5em) {
 
   .footer-col-1 { width: 50%; }
 
@@ -485,10 +488,6 @@ a:visited { color: #205caa; }
     float: none;
     clear: both;
   }
-
-}
-
-@media screen and (max-width: 600px) {
 
   .wrap { padding: 0 12px; }
 
@@ -529,6 +528,7 @@ a:visited { color: #205caa; }
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
   .post-header h1 { font-size: 36px; }
