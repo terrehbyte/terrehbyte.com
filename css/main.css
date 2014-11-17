@@ -230,16 +230,18 @@ a:visited { color: #205caa; }
 
 .posts .post-link
 {
+  display: inline;
   position: relative;
   z-index: 1;
-  font-size: 26px;
+  font-size: 1.825em;
+  font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: -1px;
-  line-height: 1;
+  line-height: 1.5em;
   
   padding: 0.2em 0.5em;
   background: #202020;
   color: #87d778;
-  font-family: 'Source Sans Pro', sans-serif;
+  
 }
 
 .posts .post-excerpt
