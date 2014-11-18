@@ -22,7 +22,7 @@
       <div class="trigger">
         {% assign navpages = site.pages | sort: 'navbarid' %}
         {% for page in navpages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+          {% if page.title and page.navbarid != -1%}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
       </div>
     </nav>
