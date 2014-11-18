@@ -68,7 +68,7 @@ a:visited { color: #205caa; }
 
 .site-header {
   border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #2f2f2f;
   min-height: 56px;
   /*background-color: #333;*/
   //background-color: #232323;
@@ -115,7 +115,7 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #050505;
   padding: 30px 0;
 }
 
