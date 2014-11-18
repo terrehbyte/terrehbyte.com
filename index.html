@@ -1,52 +1,73 @@
 ---
-layout: default
+layout: homepage
 ---
 
-<div class="home">
-
-  <!-- Loop over paginated posts   
-  {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 50 }} -->
-  <ul class="posts">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="post-date">
-          {{ post.date | date: "%b %-d, %Y" }}
-        </span>
-        
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-        
-        <p class="post-excerpt">
-          {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 50 }}
-        </p>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <!-- Pagination Links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a href="{{ site.baseurl}}/" class="pagination_step">prev</a>
-      {% else %}
-        <a href="/page{{ paginator.previous_page }}" class="pagination_step">prev</a>
-      {% endif %}
-    {% else %}
-      <span class="pagination_step_inactive">back</span>
-    {% endif %}
-    
-    <span class="pagination_pageno">
-      {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-
-    {% if paginator.next_page %}    
-      <a href="/page{{ paginator.next_page }}" class="pagination_step">next</a>
-    {% else %}
-      <span class="pagination_step_inactive">next</span>
-    {% endif %}
+<!-- Showcase -->
+<div class="page-content">
+  <div class="wrap">
+    <div class="showcase">
+      <div>
+        <img src="https://pbs.twimg.com/profile_images/472613395468791808/uOTxp6XJ.png">
+      </div>
+      <div>
+        <img src="https://pbs.twimg.com/profile_images/472613395468791808/uOTxp6XJ.png">
+      </div>
+      <div>
+        <img src="https://pbs.twimg.com/profile_images/472613395468791808/uOTxp6XJ.png">
+      </div>
+    </div>
   </div>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<!-- Posts -->
+<div class="page-content">
+  <div class="wrap">
+    <div class="home">
+      <!-- Loop over paginated posts   
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 50 }} -->
+      <ul class="posts">
+        {% for post in paginator.posts %}
+          <li>
+            <span class="post-date">
+              {{ post.date | date: "%b %-d, %Y" }}
+            </span>
+            
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title }}
+            </a>
+            
+            <p class="post-excerpt">
+              {{ post.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 50 }}
+            </p>
+          </li>
+        {% endfor %}
+      </ul>
 
+      <!-- Pagination Links -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          {% if paginator.previous_page == 1 %}
+            <a href="{{ site.baseurl}}/" class="pagination_step">prev</a>
+          {% else %}
+            <a href="/page{{ paginator.previous_page }}" class="pagination_step">prev</a>
+          {% endif %}
+        {% else %}
+          <span class="pagination_step_inactive">back</span>
+        {% endif %}
+        
+        <span class="pagination_pageno">
+          {{ paginator.page }} of {{ paginator.total_pages }}
+        </span>
+
+        {% if paginator.next_page %}    
+          <a href="/page{{ paginator.next_page }}" class="pagination_step">next</a>
+        {% else %}
+          <span class="pagination_step_inactive">next</span>
+        {% endif %}
+      </div>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+    </div>
+  </div>
 </div>
