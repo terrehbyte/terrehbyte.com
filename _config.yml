@@ -18,6 +18,7 @@ redcarpet:
     - autolink
     - strikethrough
     - fenced_code_blocks
+    - with_toc_data
 
 encoding: utf-8
 timezone: US/Pacific
