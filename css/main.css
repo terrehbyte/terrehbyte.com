@@ -20,7 +20,7 @@ post-maxwidth: 10em;
   padding: 0;
 }
 
-a, p, span, li
+a, p, span, li, th, td
 {
   color: gray;
 }
@@ -207,10 +207,13 @@ a:visited { color: #205caa; }
 
 .page-content img
 {
+  display: block;
   margin-left: auto;
   margin-right: auto;
   
 }
+
+/* TODO: Add table styling */
 
 /* Home styles */
 /* ----------------------------------------------------------*/
@@ -408,6 +411,23 @@ a:visited { color: #205caa; }
 
 .post pre.terminal code { background-color: #333; }
 
+/* Page-specific styles */
+/* ----------------------------------------------------------*/
+.projects img
+{
+  position: relative;
+  margin: 0em 1em 1em 1em;
+  display: block;
+  float: left;
+  max-width: 25%;
+}
+
+.projects p
+{
+  display: block;
+  vertical-align: text-top;
+}
+
 /* Pagination */
 /* ----------------------------------------------------------*/
 
@@ -585,5 +605,15 @@ a:visited { color: #205caa; }
     clear: both;
     width: auto;
     margin: 0 0 15px; }
+
+  .projects img
+  {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    display: block;
+    width: 70%;
+    max-width: 70%;
+  }
 
 }
