@@ -12,7 +12,7 @@ After having been first prototyped in Unity, Vordisk is a recreation of Valve's 
 The project was initially developed in Unity before being moved to the Unreal Engine due to the lack of support for networking in Unity. Unreal Engine has an existing networking layer as well as a Blueprint scripting layer that allow easy modifications to be made to the gameplay logic by designers.
 
 ### ZombieRoids
-![Screenshot of 'I am H']({{ site.baseurl}}/images/projects/IamH.png)MegaMan meets Asteroids in this recreation of the classic hit, Asteroids! Defend your dojo from the evil clutches of zombies. MonoGame was the primary technology used. This project was the first official in-class collaboration between classmates for assessment purposes.
+![Screenshot of 'ZombieRoids']({{ site.baseurl}}/images/projects/ZRoids.png)MegaMan meets Asteroids in this recreation of the classic hit, Asteroids! Defend your dojo from the evil clutches of zombies. MonoGame was the primary technology used. This project was the first official in-class collaboration between classmates for assessment purposes.
 
 Documentation    | Source      | Releases
 -----------------|-------------|-------------
