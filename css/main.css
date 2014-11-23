@@ -560,7 +560,7 @@ a:visited { color: #205caa; }
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 5px solid #161616;
+    border: 2px solid #161616;
   }
 
   .site-nav .menu-icon {
