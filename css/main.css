@@ -556,11 +556,11 @@ a:visited { color: #205caa; }
     position: fixed;
     z-index: 10;
     top: 14px; right: 8px;
-    background-color: white;
+    background-color: #2f2f2f;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    border: 1px solid #e8e8e8;
+    border: 5px solid #161616;
   }
 
   .site-nav .menu-icon {
