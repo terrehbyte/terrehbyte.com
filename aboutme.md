@@ -18,6 +18,7 @@ I am an independent game developer with a strong love for programming and arena 
   - Unreal Engine  
   - Source Engine  
 - Tools  
+  - Visual Studio, MonoDevelop
   - Git, Subversion  
   - Trello  
   - AppVeyor  
