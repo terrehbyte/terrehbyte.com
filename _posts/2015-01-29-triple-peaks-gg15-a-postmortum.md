@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Triple Peaks @ #GGJ15 - A Post-Mortum"
+tagline: "A tale of screw ups and fun times during the making of Triple Peaks"
 date: 2015-01-29 20:24
 author: terrehbyte
 comments: true

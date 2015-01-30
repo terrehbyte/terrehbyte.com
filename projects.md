@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: projects
+tagline: Projects from a game programmer.
 permalink: /projects/
 navbarid: 1
 author: terrehbyte

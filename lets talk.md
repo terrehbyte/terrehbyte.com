@@ -1,6 +1,7 @@
 ---
 layout: page
 title: let's talk
+tagline: Getting in touch with Terry Nguyen!
 permalink: /lets talk/
 navbarid: 3
 author: terrehbyte

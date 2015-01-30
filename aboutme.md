@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about me
+tagline: A word about Terry Nguyen.
 permalink: /about me/
 navbarid: 0
 author: terrehbyte

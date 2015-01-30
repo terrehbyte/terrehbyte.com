@@ -2,6 +2,7 @@
 layout: projects
 title: game jams
 permalink: /game jams/
+tagline: Game jams that I've attended over the years.
 navbarid: 2
 author: terrehbyte
 ---
