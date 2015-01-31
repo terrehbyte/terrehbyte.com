@@ -35,7 +35,7 @@ While we had three dedicated artists on the team, we only managed to eke out an 
 ## Lack of Experience in Unity3D
 While all of the programmers on the team were part-time students at the host site, only two of us had relatively substantial Unity3D experience. A lot of the technical problems could be attributed to a lack of understanding with Unity3D's workflow and API.
 
-For example, the *youngest* dev on the team couldn't figure out why ```transform.translate``` wouldn't move the saw in his scene. He had populated the variables in the inspector and the code wasn't raising any errors or warnings. Guess what the problem was? He had made put everything into a prefab and then fed the prefabs into the variables instead of providing references to the instances in the scene.
+For example, the *youngest* dev on the team couldn't figure out why ```transform.translate``` wouldn't move the saw in his scene. He had populated the variables in the inspector and the code wasn't raising any errors or warnings. Guess what the problem was? He stuffed everything into a prefab and then fed those prefabs into the variables instead of providing references to the instances in the scene.
 
 # The Takeaway
 
