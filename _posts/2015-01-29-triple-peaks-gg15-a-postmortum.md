@@ -10,6 +10,8 @@ categories: [gamedev, downloads, AIE, gamejam]
 
 Three items to be found. Two keys to be pressed. One murderer to be unveil. With only a note in hand and nary a plan in mind, can you solve the mystery that has befallen this once peaceful playset? Crack the case and save the day: only in Triple Peaks. If only it were actually that exciting. Let's break it down: what really happened during Global Game Jam 2015?
 
+![Triple Peaks' Main Menu]({{ site.baseurl }}/images/posts/Triple_Peaks.png)
+
 A word of caution: Beware! Head be spoilers for [Triple Peaks][1]! Play it if you like, or read on and have the story spoiled. :(
 
 # The Planning
