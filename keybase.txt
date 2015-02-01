@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/terrehbyte
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://terrehbyte.com
+  * I am terrehbyte (https://keybase.io/terrehbyte) on keybase.
+  * I have a public key with fingerprint C960 3EE5 D239 01B4 671D  00DD 3587 DDA1 12AC 6000
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "c9603ee5d23901b4671d00dd3587dda112ac6000",
+            "host": "keybase.io",
+            "key_id": "3587dda112ac6000",
+            "kid": "01017a0db9b43bd0514a27de15035719a3791ea5e5362021d5099b59342a99bb6d020a",
+            "uid": "cb2864a45ee9d1e1141de50f52a97a00",
+            "username": "terrehbyte"
+        },
+        "service": {
+            "hostname": "terrehbyte.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422831303,
+    "expire_in": 157680000,
+    "prev": "91612c22f82d72ff9a7d6f833a9ab04b570177600732d695664f3646d41356e4",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIZAnicbZJbSBRRGMdXsywh68EukEENBSWLnjNnzszOFhRSElSUoEEpbmfmnHUn
+dWednfW2aRBiIu1DQhpZ9GB5w+wiYpRRXqiHRRE0pCgLg5DqzYe0+xmpp3o653zf
+///7+P6csbUrXCkJ8f7U0oIjG9IS4sM5EVfeRN/zqKCZtFrwRoUStnz4jWAxs0KW
+EbQFr6CrMkCMYSoiFUBNkhVIAaAUYY9CKYFQJLoMABDcQsAMOw6O0UiYZRomr/GH
+z6C8+h99yXIDQAAVAqimahLSKMBQIqJCGcQAYQWqBCkqZAQzjGQRiJBioKoaVpEk
+En7RZApEQDgusozTNdEjS0TCjKkUMgglSBkGfszVfIwzNxJmVpCUMa62mWWxgFZt
+M6HWLfB6haEzJwRnl380mbpZxv0hy7RN3SzlvYBth8Jex2tXhxxxJdN8fzA+zQhS
+niV3VDArbJhBwQu5UrcNhwslUfQgiAByC6wqZFjMZzgKrMgeng9w5rAKjlShDEVd
+FP0ekSqi368Shcp+D0JEJRqQNKzwABWeqYJEKqtYliU/kiWZShBhmUmCs1h50ORs
+DrVJMWeGjeIgsSMWX3vkaWGSKyHFtWplovMdXClr1v/9JIVDyb9KzsRCHT8+Ns/+
+HN8ar9Oza+MDi2jX3OWsS3c+H2AX6968aN71PnPwW+sxdWDpxJtAWmxnTXtX59Xa
+kzdd6ubsVdHpPes2Foe629v7PxUkp99aneN9NZVIWoZx91dj5tTD3cbj00P77dzt
+He393xamch/kzdTVT15Y9AXzMrb1nUnvsPChpowr+e7cImmwUp68H03vO/8yQg9P
+fJnfZM30jHUW7XN/BHNnG/JSF56lds+PvA719u7IbhwvmW5LE5YmZ9++GyhvDqd/
+uDlytCk+uqZytCwpPwYba6713M4Zvp7V5mo7XtB1o/tufcu9va1vF57k4oYy/XtM
+y6/acvDco980OC0L
+=jfef
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/terrehbyte
+
+==================================================================
