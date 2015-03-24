@@ -12,7 +12,7 @@
     <meta name="twitter:site" content="@terrehbyte">
     <meta name="twitter:creator" content="@terrehbyte">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}Terry Nguyen | {{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncatewords: 50 }}">
     <meta name="twitter:image:src" content="{{ page.bigimage | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
