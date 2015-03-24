@@ -5,6 +5,9 @@ tagline: "Integrating Version Control with Unity3D: Perforce-edition"
 date: 2015-02-15 17:17
 author: terrehbyte
 comments: true
+
+bigimage: "/images/posts/p4exception.png"
+
 categories: [gamedev, downloads, AIE, VCS, DVCS, Perforce, Git]
 ---
 
