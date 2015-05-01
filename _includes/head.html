@@ -51,4 +51,29 @@
 	  ga('send', 'pageview');
 
 	</script>
+
+    <!-- Google Structured Data - Website -->
+    <script type="application/ld+json">
+    {  "@context" : "http://schema.org",
+       "@type" : "WebSite",
+       "name" : "terrehbyte",
+       "alternateName" : "terrehbyte blog",
+       "url" : "https://terrehbyte.com"
+    }
+    </script>
+
+    <!-- Google Structured Data - Blog -->
+    {{ % if page.is_post % }}
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{ page.title }}",
+      "image": "{{ page.bigimage | prepend: site.baseurl }}",
+      "datePublished": "{{ page.date | date : "%Y-%m-%d" }}",
+      "description": "{{ page.tagline }}",
+      "articleBody": "{{ page.content }}"
+    }
+    </script>
+    {{ % endif % }}
 </head>
