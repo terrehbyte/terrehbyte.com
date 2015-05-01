@@ -16,11 +16,11 @@ I am an independent game developer with a strong love for programming and arena 
   - Python  
 - Game Engines  
   - Unity3D  
-  - Unreal Engine  
+  - Unreal Engine 4  
   - Source Engine  
 - Tools  
-  - Visual Studio, MonoDevelop
-  - Git, Subversion  
+  - Visual Studio, MonoDevelop  
+  - Git, Subversion, Perforce  
   - Trello  
   - AppVeyor  
 
