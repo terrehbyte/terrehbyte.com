@@ -63,7 +63,7 @@
     </script>
 
     <!-- Google Structured Data - Blog -->
-    {{ % if page.is_post % }}
+    { % if page.is_post % }
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -75,5 +75,5 @@
       "articleBody": "{{ page.content }}"
     }
     </script>
-    {{ % endif % }}
+    { % endif % }
 </head>
