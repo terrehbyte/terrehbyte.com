@@ -1,8 +1,8 @@
 ---
 layout: page
-title: let's talk
+title: contact
 tagline: Getting in touch with Terry Nguyen!
-permalink: /lets talk/
+permalink: /contact/
 navbarid: 3
 author: terrehbyte
 ---
