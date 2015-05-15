@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext);
 
-/* Base */
+/* Base Things*/
 /* ----------------------------------------------------------*/
 
 ::selection {
@@ -34,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
   font-weight: 400;
   color: #8c8c7d;
+  butts
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -246,6 +247,19 @@ a:visited { color: #205caa; }
     display:inline-block;
 }
 
+a.darken img {
+    -webkit-transition: all 0.1s linear;
+       -moz-transition: all 0.1s linear;
+        -ms-transition: all 0.1s linear;
+         -o-transition: all 0.1s linear;
+            transition: all 0.1s linear;
+}
+
+a.darken:hover img
+{
+    opacity: 0.6;
+}
+
 .posts { list-style-type: none; }
 
 .posts li
@@ -438,7 +452,6 @@ a:visited { color: #205caa; }
 {
   margin-left: auto;
   margin-right: auto;
-  padding: 0.5em;
   background: #121312;
 }
 
@@ -446,6 +459,7 @@ a:visited { color: #205caa; }
 {
   padding-left: 0.25em;
   padding-right: 0.25em;
+  height: 100%;
 }
 
 .projects td
@@ -507,8 +521,6 @@ a:visited { color: #205caa; }
   background-color: #141414;
   padding: 1em 1em;
 }
-
-
 
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
