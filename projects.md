@@ -31,7 +31,7 @@ Source      | Releases
 [10]: https://github.com/flickenmaste/Nekopomf/Releases
 
 ### Sinasprite
-![Screenshot of 'Sinasprite']({{ site.baseurl}}/images/projects/sinasprite.png)
+![Screenshot of 'Sinasprite'](/images/projects/sinasprite.png)
 
 *Programming Intern @ Litesprite*
 *March 2014 - May 2015*
