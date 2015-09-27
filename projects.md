@@ -7,13 +7,21 @@ navbarid: 1
 author: terrehbyte
 ---
 
-### Vordisk
+### V-Bound
+![Screenshot of 'V-Bound']({{ site.baseurl }}/images/projects/V-Bound.png)
+
 *Lead Programmer @ SuperNeko*
 *December 2013 - Present*
 
-After having been first prototyped in Unity, Vordisk is a recreation of Valve's Ricochet game in the Unreal Engine. Players fling disks at each in other in hopes of knocking people off of their platforms and into the void, thus scoring them a point. Certain powerups are made available around the map that allow the attacker to inflict debuffs onto their target such as speed reduction and decapitation.
+V-Bound (formerly known as Vordisk) is a multiplayer first person disk shooter about knocking people off the edge. Decapitate, dismember, freeze, or just plain push people off the ground and into the abyss to score your way to victory. Or, well, you could just wait for them to walk right off themselves. ;)
 
-The project was initially developed in Unity before being moved to the Unreal Engine due to the lack of support for networking in Unity. Unreal Engine has an existing networking layer as well as a Blueprint scripting layer that allow easy modifications to be made to the gameplay logic by designers.
+This originally started development as a simple Unity project which we then converted into an Unreal Engine 4 project. Development formally began during June 2015, and has since gone on to show at PAX Prime 2015 and SRGE 2015 as an example of alumni projects from our alma mater, the Academy of Interactive Entertainment. The team is operating under [SuperNeko](http://superneko.com/), an independent games studio located in Seattle, Washington.
+
+Website         |
+----------------|
+[SuperNeko][11] |
+
+[11]: http://superneko.com
 
 ### NekoPomf
 ![Screenshot of 'NekoPomf']({{ site.baseurl}}/images/projects/Nekopomf.png)
@@ -21,7 +29,7 @@ The project was initially developed in Unity before being moved to the Unreal En
 *Programmer @ SuperNeko*
 *April 2015*
 
-This tool makes it easy to snap a part of your screen to upload immediately afterwards. Additionally, there is drag and drop support for any file up to 50MB. Uploads to [pomf.se](http://pomf.se).   
+This tool makes it easy to snap a part of your screen to upload immediately afterwards. Additionally, there is drag and drop support for any file up to 50MB. Uploads to [pomf.se](http://pomf.se). Pomf.se announced its closure on June 8, 2015 and consequently, NekoPomf shut down with it.  
 
 Source      | Releases
 ------------|-------------
