@@ -7,6 +7,24 @@ navbarid: 2
 author: terrehbyte
 ---
 
+### Global Game Jam 2016
+![Screenshot of 'Ritual Warehouse']({{site.baseurl
+}}/images/projects/ritual_warehouse_crop.png)
+
+*Game: [Ritual Warehouse](http://globalgamejam.org/2016/games/ritual-warehouse)*  
+*Theme: "Ritual"*
+
+It's that time of year again! Orders are pouring in from the surface and it's
+up to you to fulfill their summonings! How many packages can you pack up and
+ship before you mess up too many times?
+
+Jam Page  | Source       |
+----------|--------------|
+[GGJ][10] | [Github][11] |
+
+[10]:http://globalgamejam.org/2016/games/ritual-warehouse
+[11]:https://github.com/terrehbyte/RitualNow
+
 ### Global Game Jam 2015
 ![Screenshot of 'Triple Peaks']({{ site.baseurl}}/images/projects/triple_peaks_crop.png)
 
