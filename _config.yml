@@ -14,7 +14,7 @@ markdown: kramdown
 
 encoding: utf-8
 timezone: US/Pacific
-highlighter: pygments
+highlighter: rouge
 
 permalink: /:year/:month/:day/:title/
 
