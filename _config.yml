@@ -10,22 +10,15 @@ github_username:  terrehbyte
 paginate: 4
 
 # Build settings
-markdown: redcarpet
-redcarpet:
-  extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
-    - with_toc_data
-    - tables
+markdown: kramdown
 
 encoding: utf-8
 timezone: US/Pacific
 highlighter: pygments
 
 permalink: /:year/:month/:day/:title/
+
+gems: [jekyll-paginate]
 
 # Defaults
 defaults:

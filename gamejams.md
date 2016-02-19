@@ -10,7 +10,7 @@ author: terrehbyte
 ### Global Game Jam 2015
 ![Screenshot of 'Triple Peaks']({{ site.baseurl}}/images/projects/triple_peaks_crop.png)
 
-*Game: [Triple Peaks](http://globalgamejam.org/2015/games/triple-peaks)*
+*Game: [Triple Peaks](http://globalgamejam.org/2015/games/triple-peaks)*  
 *Theme: "What do we do now?"*
 
 Three items to be found. Two keys to be pressed. One murderer to be unveil. With only a note in hand and nary a plan in mind, can you solve the mystery that has befallen this once peaceful playset? Only in: Triple Peaks.
@@ -26,7 +26,7 @@ Jam Page | Source      | Releases
 ### AIE X-Campus Jam of 2014
 ![Screenshot of 'EcoYeti']({{ site.baseurl}}/images/projects/EcoYeti.png)
 
-*Game: [EcoYeti](http://terrehbyte.com/EcoYeti/)*
+*Game: [EcoYeti](http://terrehbyte.com/EcoYeti/)*  
 *Theme: "This has all happened before."*
 
 For the (first?) annual AIE cross-campus game jam, we decided that we should pay homage to an old Windows classic: SkiFree. The player takes the role of the yeti and must defend the egg nests from the skiing poachers! Their dinner is your children, so pay attention!
@@ -42,7 +42,7 @@ Jam Page | Source      | Releases
 ### Global Game Jam 2014
 ![Screenshot of 'I am H']({{ site.baseurl}}/images/projects/IamH.png)
 
-*Game: [I Am H](http://globalgamejam.org/2014/games/i-am-h)*
+*Game: [I Am H](http://globalgamejam.org/2014/games/i-am-h)*  
 *Theme: "We don't see things as they are, we see them as we are."*
 
 Playing on the fact that you don't actually see yourself in first person games, I and my fellow game jammers decided that we would make a game where your appearance is determined by the types of actions that you make throughout the course of the adventure.

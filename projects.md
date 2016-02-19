@@ -10,7 +10,7 @@ author: terrehbyte
 ### V-Bound
 ![Screenshot of 'V-Bound']({{ site.baseurl }}/images/projects/V-Bound.png)
 
-*Lead Programmer @ SuperNeko*
+*Lead Programmer @ SuperNeko*  
 *December 2013 - Present*
 
 V-Bound (formerly known as Vordisk) is a multiplayer first person disk shooter about knocking people off the edge. Decapitate, dismember, freeze, or just plain push people off the ground and into the abyss to score your way to victory. Or, well, you could just wait for them to walk right off themselves. ;)
@@ -26,7 +26,7 @@ Website         |
 ### NekoPomf
 ![Screenshot of 'NekoPomf']({{ site.baseurl}}/images/projects/Nekopomf.png)
 
-*Programmer @ SuperNeko*
+*Programmer @ SuperNeko*  
 *April 2015*
 
 This tool makes it easy to snap a part of your screen to upload immediately afterwards. Additionally, there is drag and drop support for any file up to 50MB. Uploads to [pomf.se](http://pomf.se). Pomf.se announced its closure on June 8, 2015 and consequently, NekoPomf shut down with it.  
@@ -41,7 +41,7 @@ Source      | Releases
 ### Sinasprite
 ![Screenshot of 'Sinasprite'](/images/projects/sinasprite.png)
 
-*Programming Intern @ Litesprite*
+*Programming Intern @ Litesprite*  
 *March 2014 - May 2015*
 
 Sinasprite is a wellness app for Android and iOS that looks to alleviate anxiety and stress in everyday life. I designed mobile UI and UX in Unity3D. Establishing documentation and a high-level API for making web calls out to the database were the critical parts of my assignment at Litesprite.
@@ -56,7 +56,7 @@ Website  | Releases
 ### ZombieRoids
 ![Screenshot of 'ZombieRoids']({{ site.baseurl}}/images/projects/ZRoids.png)
 
-*Programmer*
+*Programmer*  
 *June 2014*
 
 MegaMan meets Asteroids in this recreation of the classic hit, Asteroids! Defend your dojo from the evil clutches of zombies. MonoGame was the primary technology used. This project was the first official in-class collaboration between classmates for assessment purposes.
@@ -72,7 +72,7 @@ Documentation    | Source      | Releases
 ### SpritePacker
 ![Screenshot of 'SpritePacker']({{ site.baseurl}}/images/projects/packer.png)
 
-*Solo Developer*
+*Solo Developer*  
 *March 2014*
 
 Tools development has always been an area of interest for me ever since I created a program to pack a set of sprites into a spritesheet. Written in XAML and C#, this program utilizes the Windows Presentation Foundation (WPF) to create a simple Windows application.
