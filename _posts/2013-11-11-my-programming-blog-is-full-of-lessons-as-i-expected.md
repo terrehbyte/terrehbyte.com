@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/11/11/my-programming-blog-is-full-of-lessons-as-i-expected/"
 layout: post
 title: My Programming Blog Is Full of Lessons as I Expected
 date: 2013-11-11 02:30

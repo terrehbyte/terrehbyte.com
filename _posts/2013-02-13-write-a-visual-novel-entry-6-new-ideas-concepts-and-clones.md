@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/02/13/write-a-visual-novel-entry-6-new-ideas-concepts-and-clones/"
 layout: post
 title: Write a Visual Novel - Entry 6 - New Ideas, Concepts, and Clones?!
 date: 2013-02-13 12:00

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/07/17/skype-on-dexpot/"
 layout: post
 title: Skype on Dexpot
 date: 2012-07-17 16:21

@@ -10,15 +10,39 @@ github_username:  terrehbyte
 paginate: 4
 
 # Build settings
+safe: true
 markdown: kramdown
 
 encoding: utf-8
 timezone: US/Pacific
 highlighter: rouge
 
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
-gems: [jekyll-paginate]
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+
+whitelist:
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-coffeescript
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-sass-converter
+  - jekyll-textile-converter
+
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Defaults
 defaults:
@@ -28,3 +52,7 @@ defaults:
       type: posts   # limit to posts
     values:
       is_post: true # automatically set is_post=true for all posts
+#     redirect_from:
+#         - {{ current.page.data }}
+#        - /{{ page.date | date: "%Y/%m/%d" }}/
+#        - /:year/:month/:day/:title/

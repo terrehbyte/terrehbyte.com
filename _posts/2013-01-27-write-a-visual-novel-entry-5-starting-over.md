@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/01/27/write-a-visual-novel-entry-5-starting-over/"
 layout: post
 title: Write a Visual Novel - Entry 5 - Starting Over
 date: 2013-01-27 12:00

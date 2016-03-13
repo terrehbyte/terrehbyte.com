@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/12/18/update-for-tf2-mann-vs-machine-listen-server-script/"
 layout: post
 title: Update for TF2 Mann vs. Machine Listen Server Script
 date: 2013-12-18 13:58

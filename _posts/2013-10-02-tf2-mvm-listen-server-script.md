@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/10/02/tf2-mvm-listen-server-script/"
 layout: page
 title: TF2 - MvM Listen Server Script
 date: 2013-10-02 20:59

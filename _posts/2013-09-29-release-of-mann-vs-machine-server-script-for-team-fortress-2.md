@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/09/29/release-of-mann-vs-machine-server-script-for-team-fortress-2/"
 layout: post
 title: Release of Mann vs. Machine Server Script for Team Fortress 2
 date: 2013-09-29 14:41

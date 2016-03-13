@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/11/19/resetting-windows-7s-volume-mixer/"
 layout: post
 title: Resetting Windows 7's Volume Mixer
 date: 2012-11-19 00:53

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2015/06/12/Postmortem-for-Total-Withdrawal/"
 layout: post
 title: Postmortem for Total Withdrawal
 tagline: "On Motivation and Experience"

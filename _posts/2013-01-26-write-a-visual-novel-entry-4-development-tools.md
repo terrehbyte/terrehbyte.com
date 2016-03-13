@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/01/26/write-a-visual-novel-entry-4-development-tools/"
 layout: post
 title: Write a Visual Novel - Entry 4 - Development Tools
 date: 2013-01-26 12:00

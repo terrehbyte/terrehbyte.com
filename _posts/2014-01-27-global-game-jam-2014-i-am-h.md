@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2014/01/27/global-game-jam-2014-i-am-h/"
 layout: post
 title: Global Game Jam 2014 - I am H
 date: 2014-01-27 19:32

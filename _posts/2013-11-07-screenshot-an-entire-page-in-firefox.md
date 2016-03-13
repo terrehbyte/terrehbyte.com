@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/11/07/screenshot-an-entire-page-in-firefox/"
 layout: post
 title: Screenshot an Entire Page in Firefox
 date: 2013-11-07 13:26

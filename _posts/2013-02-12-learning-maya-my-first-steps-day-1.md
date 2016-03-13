@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/02/12/learning-maya-my-first-steps-day-1/"
 layout: post
 title: Learning Maya - My First Steps - Day 1
 date: 2013-02-12 12:00

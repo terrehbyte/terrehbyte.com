@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/08/01/my-plans-for-august-2012/"
 layout: post
 title: My Plans for August 2012
 date: 2012-08-01 05:00

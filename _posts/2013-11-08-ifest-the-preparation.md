@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/11/08/ifest-the-preparation/"
 layout: post
 title: iFEST - the Preparation
 date: 2013-11-08 21:40

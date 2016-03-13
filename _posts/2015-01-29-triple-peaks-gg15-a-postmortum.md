@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2015/01/29/triple-peaks-gg15-a-postmortum/"
 layout: post
 title: "Triple Peaks @ #GGJ15 - A Post-Mortum"
 tagline: "A tale of screw ups and fun times during the making of Triple Peaks"

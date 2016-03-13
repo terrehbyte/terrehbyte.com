@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2014/11/26/starting-over-with-jekyll/"
 layout: post
 title: Starting Over With Jekyll
 date: 2014-11-26 08:45

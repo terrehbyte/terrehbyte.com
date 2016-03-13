@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/08/02/gaming-mode-vs-working-mode/"
 layout: post
 title: Gaming Mode vs. Working Mode
 date: 2012-08-02 17:13

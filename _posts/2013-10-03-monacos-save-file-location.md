@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/10/03/monacos-save-file-location/"
 layout: post
 title: Monaco's Save File Location
 date: 2013-10-03 21:32

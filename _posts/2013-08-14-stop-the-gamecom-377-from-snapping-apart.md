@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/08/14/stop-the-gamecom-377-from-snapping-apart/"
 layout: post
 title: Stop the GameCom 377 from Snapping Apart
 date: 2013-08-14 19:13

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/07/31/whatpulse/"
 layout: post
 title: WhatPulse - Track Your Usage!
 date: 2012-07-31 11:22

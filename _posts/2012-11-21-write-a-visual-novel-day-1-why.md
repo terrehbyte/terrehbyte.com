@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/11/21/write-a-visual-novel-day-1-why/"
 layout: post
 title: "Write a Visual Novel - Day 1: Why?"
 date: 2012-11-21 12:17

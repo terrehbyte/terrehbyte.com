@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/08/13/anime-recommendations/"
 layout: post
 title: Anime Recommendations
 date: 2012-08-13 20:50

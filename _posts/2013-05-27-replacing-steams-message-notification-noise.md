@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/05/27/replacing-steams-message-notification-noise/"
 layout: post
 title: Replacing Steam's Message Notification Noise
 date: 2013-05-27 16:03

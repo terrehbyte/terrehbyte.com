@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/05/28/looking-back-on-soluto/"
 layout: post
 title: Looking Back on Soluto
 date: 2012-05-28 23:04

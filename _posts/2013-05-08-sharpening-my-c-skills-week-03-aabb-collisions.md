@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/05/08/sharpening-my-c-skills-week-03-aabb-collisions/"
 layout: post
 title: Sharpening My C# Skills - Week 03 - AABB Collisions
 date: 2013-05-08 15:44

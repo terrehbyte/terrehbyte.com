@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/06/27/media-keys-and-the-sidewinder-x4/"
 layout: post
 title: Media Keys and the Sidewinder X4
 date: 2012-06-27 22:25

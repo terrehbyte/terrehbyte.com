@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/08/25/to-terry-in-two-years/"
 layout: post
 title: To Terry in Two Years
 date: 2013-08-25 19:00

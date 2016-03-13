@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/09/30/using-entertainment-to-unwind-and-focus/"
 layout: post
 title: Using Entertainment to Unwind and Focus
 date: 2012-09-30 23:39

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/11/03/defend-da-taco-shack/"
 layout: post
 title: Defend Da Taco Shack
 date: 2013-11-03 02:13

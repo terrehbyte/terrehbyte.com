@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/12/26/checking-in-python-codeacademy-and-stories/"
 layout: post
 title: "Checking In: Python, Codeacademy, and Stories"
 date: 2012-12-26 03:05

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2013/01/25/entry-3-write-a-visual-novel-finding-decisions-in-life/"
 layout: post
 title: Write a Visual Novel - Entry 3 - Struggling With the Idea
 date: 2013-01-25 12:00

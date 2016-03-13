@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/07/23/hwmonitor/"
 layout: post
 title: HWMonitor
 date: 2012-07-23 19:22

@@ -1,4 +1,5 @@
 ---
+redirect_from: "/2012/11/26/write-a-visual-novel-day-2-inspiration/"
 layout: post
 title: "Write a Visual Novel - Day 2: Inspiration!"
 date: 2012-11-26 13:33
