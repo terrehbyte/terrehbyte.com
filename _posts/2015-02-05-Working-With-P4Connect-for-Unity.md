@@ -1,5 +1,5 @@
 ---
-redirect_from: "/2015/02/05/Working-With-P4Connect-for-Unity/"
+redirect_from: "/2015/02/15/Working-With-P4Connect-for-Unity/"
 layout: post
 title: Working with P4Connect for Unity
 tagline: "Integrating Version Control with Unity3D: Perforce-edition"
