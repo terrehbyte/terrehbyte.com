@@ -12,6 +12,13 @@ paginate: 4
 kramdown:
   input: GFM
 
+authors:
+  terrehbyte:
+    real_name: Terry Nguyen
+    display_name: terrehbyte
+    twitter: terrehbyte
+    github: terrehbyte
+
 # Build settings
 safe: true
 markdown: kramdown
