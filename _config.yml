@@ -9,6 +9,9 @@ twitter_username: terrehbyte
 github_username:  terrehbyte
 paginate: 4
 
+kramdown:
+  input: GFM
+
 # Build settings
 safe: true
 markdown: kramdown

@@ -14,8 +14,10 @@ The goal is simple: two players need to gather the largest amount of gold possib
 
 Each agent will be capable of the same actions as the other, only that each one has different conditions for switching to different states.
 
-# Decision Tasks
-## Movement
+# Decision Tasks  
+
+## Movement  
+
 - Move to Base
     - Move towards a friendly base.
 - Move to Gold Mine
@@ -28,14 +30,14 @@ Each agent will be capable of the same actions as the other, only that each one 
 - Arrive at T
     - Arrive at a destination.
 
-## Actions
+## Actions  
 - Gather Gold
     - When at a location with gold, draw gold from that mine at a fixed rate after a certain amount of time has passed. Withdrawing from the location is instantaneous.
 
 - Steal Gold from Player
     - A random number will be generated. If the number is past a specified threshold, then an additional roll will occur for the player to steal a percentage of the currently held gold, ranging from 10 percent to 50 percent.
 
-# Locomotion / Steering Behaviors
+# Locomotion / Steering Behaviors  
 
 - Seek
     - The agent will continously move towards its destination at a fixed speed.
