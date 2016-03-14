@@ -7,20 +7,18 @@ date: 2015-06-12 7:17
 author: terrehbyte
 comments: true
 
-bigimage: "/images/posts/p4exception.png"
-
 categories: [gamedev, AIE, Unity3D, production, postmortem]
 ---
 
-During my last months at the Academy of Interactive of Entertainment, I worked as the Technical Director for two projects for our final production project, Total Withdrawal and Fae-Tal. We tried far too many things on both projects, and while this fared a bit better than the other, it still did not meet expectations. 
+During my last months at the Academy of Interactive of Entertainment, I worked as the Technical Director for two projects for our final production project, Total Withdrawal and Fae-Tal. We tried far too many things on both projects, and while this fared a bit better than the other, it still did not meet expectations.
 
-# Art Power 
+# Art Power
 
 ## Pipeline
 
 There was prior work with artists, but a solid pipeline had not been established. The artists were developing content in Maya and then shipping over a new FBX file with new materials. Integration was undertaken by the programming lead, which opted to drop it in as a new asset, and hook up the materials and textures again upon each iteration.
 
-Ideally, if the team is small enough, the artist would check-in the asset themselves and be able to test the game to ensure its integrity before making the check-in. This would allow the programming lead to move their focus from helping the artists iterate on their work to resolving more engineering issues. 
+Ideally, if the team is small enough, the artist would check-in the asset themselves and be able to test the game to ensure its integrity before making the check-in. This would allow the programming lead to move their focus from helping the artists iterate on their work to resolving more engineering issues.
 
 # Engineering Power
 
