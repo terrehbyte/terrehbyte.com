@@ -18,12 +18,13 @@ It's that time of year again! Orders are pouring in from the surface and it's
 up to you to fulfill their summonings! How many packages can you pack up and
 ship before you mess up too many times?
 
-Jam Page  | Source       |
-----------|--------------|
-[GGJ][10] | [Github][11] |
+Jam Page  | Source       | Play       |
+----------|--------------|------------|
+[GGJ][10] | [Github][11] | [Play][12] |
 
 [10]:http://globalgamejam.org/2016/games/ritual-warehouse
 [11]:https://github.com/terrehbyte/RitualNow
+[12]:RitualWarehouseGame
 
 ### Global Game Jam 2015
 ![Screenshot of 'Triple Peaks']({{ site.baseurl}}/images/projects/triple_peaks_crop.png)

@@ -7,6 +7,9 @@ navbarid: 1
 author: terrehbyte
 ---
 
+### Ritual Warehouse
+![Screenshot of 'Ritual Warehouse']({{ site.baseurl }}/images/projects/RitualWarehouse.png)
+
 ### V-Bound
 ![Screenshot of 'V-Bound']({{ site.baseurl }}/images/projects/V-Bound.png)
 
