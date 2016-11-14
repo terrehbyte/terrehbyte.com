@@ -234,7 +234,7 @@ a:visited { color: #205caa; }
 {
     width: 32%;
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 .showcase img
 {

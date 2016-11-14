@@ -9,9 +9,6 @@ twitter_username: terrehbyte
 github_username:  terrehbyte
 paginate: 4
 
-kramdown:
-  input: GFM
-
 authors:
   terrehbyte:
     real_name: Terry Nguyen
@@ -21,11 +18,9 @@ authors:
 
 # Build settings
 safe: true
-markdown: kramdown
 
 encoding: utf-8
 timezone: US/Pacific
-highlighter: rouge
 
 permalink: /:title/
 
