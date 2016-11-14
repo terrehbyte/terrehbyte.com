@@ -23,7 +23,7 @@ Source          |
 [13]:https://github.com/terrehbyte/TBYTEConsoleApp
 
 ### Vextar
-![Screenshot of 'Vextar']({{ site.baseurl }}/images/projects/Vextar.png)
+![Screenshot of 'Vextar']({{ site.baseurl }}/images/projects/Vextar.PNG)
 
 *Programmer @ BabyKatsu*  
 *June 2016 - Present*
