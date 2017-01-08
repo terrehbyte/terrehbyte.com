@@ -472,6 +472,11 @@ a.darken:hover img
   padding-right : 0.25em;
 }
 
+.projects div
+{
+  display: block
+}
+
 /* shitty table columns */
 /*
 .projects tr td
