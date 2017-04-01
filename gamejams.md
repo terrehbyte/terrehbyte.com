@@ -9,38 +9,39 @@ test: jamname
 ---
 
 <div class="projects">
-{% for jam in site.data.gamejams %}
-<div style="overflow: hidden;">
+{% for project in site.data.gamejams %}
   <div style="overflow: hidden;">
-    <h3>{{ jam['jamname'] }}</h3>
-    <img src="{{site.baseurl}}{{ jam.imagepath }}" alt="{{jam.gamename}}">
-
-    <p>
-      <em>Game: {{ jam.gamename }}</em>
-      <br>
-      <em>Theme: {{ jam.jamtheme }}</em>
-    </p>
-    
-    <br>
-    
-    <p>
-      {{ jam.description }}
-    </p>
-
-    <br>
+    <h2>{{ project['jamname'] }}</h2>
+    <!-- Showcase !-->
+    <table class="project-showtable">
+      <td>
+        <img src="{{site.baseurl}}{{ project.imagepath }}" alt="{{project.gamename}}">
+      </td>
+      <td>
+        <p>
+          <em>{{ project.gamename }}</em>
+          <br>
+          <em>{{ project.jamtheme }}</em>
+        </p>
+        <br>
+        <p>
+          {{ project.description }}
+        </p>
+      </td>
+    </table>
+    <!-- Table of Links !-->
+    <table class="project-linktable">
+      <tr>
+        {% for link in project.links %}
+        <th>{{ link['header'] }}</th>
+        {% endfor %}
+      </tr>
+      <tr>
+        {% for link in project.links %}
+        <td><a href="{{ link['data'] }}">{{ link['display'] }}</a></td>
+        {% endfor %}
+      </tr>
+    </table>
   </div>
-  <table>
-    <tr>
-      {% for link in jam.links %}
-      <th>{{ link['header'] }}</th>
-      {% endfor %}
-    </tr>
-    <tr>
-      {% for link in jam.links %}
-      <td><a href="{{ link['data'] }}">{{ link['display'] }}</a></td>
-      {% endfor %}
-    </tr>
-  </table>
-</div>
 {% endfor %}
 </div>

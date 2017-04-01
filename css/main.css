@@ -465,10 +465,8 @@ a.darken:hover img
 .projects img
 {
   position: relative;
-  margin: 0em 1em 1em 1em;
   display: block;
   float: left;
-  max-width: 25%;
 }
 
 .projects p
@@ -481,7 +479,6 @@ a.darken:hover img
 {
   margin-left: auto;
   margin-right: auto;
-  background: #121312;
 }
 
 .projects th
@@ -493,8 +490,6 @@ a.darken:hover img
 
 .projects td
 {
-  text-align: center;
-  background: #292a29;
   padding-left : 0.25em;
   padding-right : 0.25em;
 }
@@ -503,6 +498,49 @@ a.darken:hover img
 {
   display: block
 }
+
+.projects img
+{
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  display: block;
+}
+
+.project-showtable td 
+{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding : 1em;
+  background: #121312;
+  vertical-align: top;
+}
+
+.project-showtable td:first-child
+{
+  width: 30%;
+}
+
+.project-showtable img 
+{
+  position: relative;
+  display: block;
+}
+
+.project-showtable td p
+{
+  vertical-align: top;
+  padding-left : 0.25em;
+  padding-right : 0.25em;
+}
+
+.project-linktable td
+{
+  text-align: center;
+    background: #292a29;
+}
+
 
 /* shitty table columns */
 /*
@@ -628,15 +666,4 @@ a.darken:hover img
     clear: both;
     width: auto;
     margin: 0 0 15px; }
-
-  .projects img
-  {
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-    display: block;
-    width: 70%;
-    max-width: 70%;
-  }
-
 }
