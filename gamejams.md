@@ -11,7 +11,7 @@ test: jamname
 <div class="projects">
 {% for project in site.data.gamejams %}
   <div style="overflow: hidden;">
-    <h2>{{ project['projectname'] }}</h2>
+    <h2>{{ project['jamname'] }}</h2>
     <!-- Showcase !-->
     <div class="project-showcase">
       <ul>
