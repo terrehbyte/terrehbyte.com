@@ -507,6 +507,11 @@ a.darken:hover img
   display: block;
 }
 
+.project-showcase li
+{
+  list-style-type: none 
+}
+
 .project-showtable td 
 {
   text-align: left;
@@ -538,9 +543,43 @@ a.darken:hover img
 .project-linktable td
 {
   text-align: center;
-    background: #292a29;
+  background: #292a29;
 }
 
+.project-showcase
+{
+  padding: 1em;
+  overflow: auto;
+}
+/*
+.project-showcase img
+{
+  display: flex;
+  max-width: 33%;
+}
+
+.project-showcase p
+{
+  display: flex;
+  flex-direction: column;
+}
+*/
+.project-showcase #thumb
+{
+  float: left;
+  width: 33%;
+}
+
+.project-showcase #desc
+{
+  float: right;
+  width: 66%;
+}
+
+.project-showcase p
+{
+  padding-left: 1em;
+}
 
 /* shitty table columns */
 /*
@@ -661,9 +700,74 @@ a.darken:hover img
 
 
 
-  .site-footer .column {
-    float: none;
-    clear: both;
-    width: auto;
-    margin: 0 0 15px; }
+.site-footer .column {
+  float: none;
+  clear: both;
+  width: auto;
+  margin: 0 0 15px; }
+
+
+
+@media screen and (max-width: 39.5em)
+{
+  .site-header
+  {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .site-nav
+  {
+    line-height: inherit;
+  }
+
+  .site-nav li
+  {
+    display: block;
+  }
+
+  .site-nav .page-link
+  {
+    margin: 0px;
+  }
+
+  .project-showcase img
+  {
+    float: initial;
+    max-width: 100%;
+  }
+
+  .project-showcase br
+  {
+    height: 1em;
+    width: 100%;
+  }
+
+  .project-showcase p
+  {
+    float: top;
+  }
+
+  .project-showcase #thumb
+  {
+    float: initial;
+    width: initial;
+  }
+
+  .project-showcase #desc
+  {
+    float: initial;
+    width: initial;
+  }
+
+  .project-showcase p
+  {
+    padding-left: initial;
+  }
+
+  .wrap
+  {
+    padding: initial;
+  }
+
 }

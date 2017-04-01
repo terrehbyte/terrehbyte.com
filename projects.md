@@ -12,22 +12,28 @@ author: terrehbyte
   <div style="overflow: hidden;">
     <h2>{{ project['projectname'] }}</h2>
     <!-- Showcase !-->
-    <table class="project-showtable">
-      <td>
-        <img src="{{site.baseurl}}{{ project.imagepath }}" alt="{{project.gamename}}">
-      </td>
-      <td>
-        <p>
-          <em>{{ project.role }}</em>
-          <br>
-          <em>{{ project.date }}</em>
-        </p>
-        <br>
-        <p>
-          {{ project.description }}
-        </p>
-      </td>
-    </table>
+    <div class="project-showcase">
+      <ul>
+        <li>
+          <div id="thumb">
+            <img src="{{site.baseurl}}{{ project.imagepath }}" alt="{{project.gamename}}">
+          </div>
+        </li>
+        <li>
+          <div id="desc">
+            <p>
+              <em>{{ project.role }}</em>
+              <br>
+              <em>{{ project.date }}</em>
+            </p>
+            <p>
+              <br>
+              {{ project.description }}
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
     <!-- Table of Links !-->
     <table class="project-linktable">
       <tr>
@@ -42,5 +48,6 @@ author: terrehbyte
       </tr>
     </table>
   </div>
+  <br>
 {% endfor %}
 </div>

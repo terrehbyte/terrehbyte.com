@@ -11,24 +11,30 @@ test: jamname
 <div class="projects">
 {% for project in site.data.gamejams %}
   <div style="overflow: hidden;">
-    <h2>{{ project['jamname'] }}</h2>
+    <h2>{{ project['projectname'] }}</h2>
     <!-- Showcase !-->
-    <table class="project-showtable">
-      <td>
-        <img src="{{site.baseurl}}{{ project.imagepath }}" alt="{{project.gamename}}">
-      </td>
-      <td>
-        <p>
-          <em>{{ project.gamename }}</em>
-          <br>
-          <em>{{ project.jamtheme }}</em>
-        </p>
-        <br>
-        <p>
-          {{ project.description }}
-        </p>
-      </td>
-    </table>
+    <div class="project-showcase">
+      <ul>
+        <li>
+          <div id="thumb">
+            <img src="{{site.baseurl}}{{ project.imagepath }}" alt="{{project.gamename}}">
+          </div>
+        </li>
+        <li>
+          <div id="desc">
+            <p>
+              <em>{{ project.gamename }}</em>
+              <br>
+              <em>{{ project.jamtheme }}</em>
+            </p>
+            <p>
+              <br>
+              {{ project.description }}
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
     <!-- Table of Links !-->
     <table class="project-linktable">
       <tr>
@@ -43,5 +49,6 @@ test: jamname
       </tr>
     </table>
   </div>
+  <br>
 {% endfor %}
 </div>
