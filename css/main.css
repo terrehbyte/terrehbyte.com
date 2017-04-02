@@ -308,6 +308,13 @@ a.darken:hover img
   float: left;
 }
 
+.posts .post-year
+{
+  color: #818181;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 .posts .post-link
 {
   display: inline;
