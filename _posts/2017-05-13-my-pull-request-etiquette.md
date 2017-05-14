@@ -6,6 +6,8 @@ date: 2017-05-13 17:38
 author: terrehbyte
 comments: true
 
+bigimage: "/images/posts/github thanks.png"
+
 categories: [gamedev, github, foss]
 ---
 
