@@ -1,5 +1,30 @@
 [
     {
+        "jamname": "Global Game Jam 2017",
+        "jamtheme": "Waves",
+        "gamename": "Simon Waves (Sasvez)",
+        "imagepath": "/images/projects/simonwaves.jpg",
+        "description": "Follow along on your phone by selecting the appropriate object and imitating the same movements as shown onn the screen. This game leverages sensors on the mobile device to determine whether you are successfully waving along with the computer.",
+        "links":
+        [
+            {
+                "header": "Jam Page",
+                "data": "https://globalgamejam.org/2017/games/sasves",
+                "display": "GGJ"
+            },
+            {
+                "header": "Source",
+                "data": "https://github.com/terrehbyte/Sasves",
+                "display": "GitHub"
+            },
+            {
+                "header": "Play",
+                "data": "https://play.google.com/store/apps/details?id=com.TerryJacobShawn.SimonWaves",
+                "display": "Google Play Store"
+            }
+        ]
+    },
+    {
         "jamname": "Global Game Jam 2016",
         "jamtheme": "Ritual",
         "gamename": "Ritual Warehouse",
