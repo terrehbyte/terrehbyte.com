@@ -726,11 +726,6 @@ a.darken:hover img
     line-height: inherit;
   }
 
-  .site-nav li
-  {
-    display: block;
-  }
-
   .site-nav .page-link
   {
     margin: 0px;
