@@ -26,7 +26,7 @@ navbarid: -1
             </span>
             
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title }} - {{ forloop.index }} - {{ this_year }}
+              {{ post.title }}
             </a>
           </li>
           {% if this_year > next_year and forloop.last != true %}

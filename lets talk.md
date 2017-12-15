@@ -6,6 +6,8 @@ permalink: /contact/
 navbarid: 3
 author: terrehbyte
 ---
-Hit me up at [ask.fm](http://ask.fm/terrehbyte) if you've got something you don't mind sharing!
+The best way to get in touch with me is to e-mail me at [terreh@terrehbyte.com](mailto:terreh@terrehbyte.com)!
 
-Otherwise, try e-mailing me at [terreh@terrehbyte.com](mailto:terreh@terrehbyte.com)!
+You're also more than welcome to message me on Twitter at [@terrehbyte][tw].
+
+[tw]:https://twitter.com/terrehbyte
