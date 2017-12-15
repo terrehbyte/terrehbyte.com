@@ -340,6 +340,10 @@ a.darken:hover img
   max-height: 8em;
 }
 
+.posts h2, h3, h4, h5
+{
+  border-bottom: 1px dashed rgb(61, 61, 61);
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -413,10 +417,23 @@ a.darken:hover img
 }
 
 .post-header h1 { font-size: 22px; }
-.post-content h1 { font-size: 20px; }
+.post-content h1 { text-align: unset; font-size: 20px; }
 .post-content h2 { font-size: 18px; }
 .post-content h3 { font-size: 16px; }
 .post-content h4 { font-size: 14px; }
+
+.post-content h1, h2, h3, h4, h5
+{
+  content: ' ';
+  display: block;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+.post-content h2, h3, h4, h5
+{
+  border-bottom: 1px dashed rgb(61, 61, 61);
+}
+
 .post-content blockquote { padding-left: 10px; }
 .post-content ul,
 .post-content ol { padding-left: 10px; }

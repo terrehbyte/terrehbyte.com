@@ -26,16 +26,14 @@ navbarid: -1
             </span>
             
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title }}
+              {{ post.title }} - {{ forloop.index }} - {{ this_year }}
             </a>
           </li>
-          {% if this_year > next_year }
-            {% unless forloop.first or forloop.last %}
+          {% if this_year > next_year and forloop.last != true %}
           <h2 class="post-year">
             {{ next_year }}
           </h2>
           {% endif %}
-
         {% endfor %}
       </ul>
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
