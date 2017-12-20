@@ -285,6 +285,25 @@ a.darken:hover img
     opacity: 0.6;
 }
 
+table
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th
+{
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  height: 100%;
+}
+
+td
+{
+  padding-left : 0.25em;
+  padding-right : 0.25em;
+}
+
 .posts
 {
   font-size: 1.2em;
@@ -381,6 +400,12 @@ a.darken:hover img
   font-size: 1em;
 }
 
+.post-content blockquote p
+{
+  font-size: 0.9em;
+  margin: 20px 0;
+}
+
 .post-content h1,
 .post-content h2,
 .post-content h3,
@@ -450,9 +475,16 @@ a.darken:hover img
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
-.post-content img
+.post-content img, video
 {
   max-width: 100%;
+}
+
+video::-webkit-media-controls-panel {
+  width: 100%;
+}
+video::-internal-media-controls-download-button {
+  display:none;
 }
 
 .post pre,
