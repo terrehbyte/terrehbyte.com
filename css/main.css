@@ -18,7 +18,7 @@
 
 a, p, span, li, th, td
 {
-  color: gray;
+  color: rgb(194, 194, 194);
 }
 
 html, body { height: 100%; }
@@ -133,7 +133,7 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
+  color: #8c8c7d;
   letter-spacing: -.5px;
   font-size: 1.3em;
   font-weight: 300;
@@ -285,7 +285,11 @@ a.darken:hover img
     opacity: 0.6;
 }
 
-.posts { list-style-type: none; }
+.posts
+{
+  font-size: 1.2em;
+  list-style-type: none;
+}
 
 .posts li
 {
@@ -315,6 +319,7 @@ a.darken:hover img
 
 .posts .post-link
 {
+  font-size: 1em;
   display: inline;
   position: relative;
   letter-spacing: -1px;
@@ -371,6 +376,10 @@ a.darken:hover img
 
 .post-content > * { margin: 20px 0; }
 
+.post-content p
+{
+  font-size: 1em;
+}
 
 .post-content h1,
 .post-content h2,
