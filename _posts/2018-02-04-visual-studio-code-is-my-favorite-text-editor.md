@@ -6,7 +6,7 @@ date: 2018-02-04 21:37
 author: terrehbyte
 comments: true
 
-bigimage: "/images/posts/vscode-waifu.png"
+bigimage: "/images/posts/vscode-waifu.PNG"
 categories: [gamedev, vscode, foss, tools]
 ---
 
