@@ -164,7 +164,7 @@ well enough.
 
 ### Path Normalizing for Different File Systems
 
-The [lack of path canonicalization][[VScode-path-issue]] has been giving me a
+The [lack of path canonicalization][VScode-path-issue] has been giving me a
 lot of grief when debugging my Unreal Engine 4 projects. Placing and managing
 breakpoints in my source code is super smooth, but it's what happens when a
 breakpoint is triggered that's the issue: two editors to the "same file" are
