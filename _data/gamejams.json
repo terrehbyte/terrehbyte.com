@@ -1,5 +1,55 @@
 [
     {
+        "jamname": "Global Game Jam 2018",
+        "jamtheme": "Transmission",
+        "gamename": "Aishitteru Waifu-chan",
+        "imagepath": "/images/projects/AWC.png",
+        "description": "Be the world's best matchmaker and bring together as many couples as you can!",
+        "links":
+        [
+            {
+                "header": "Jam Page",
+                "data": "https://globalgamejam.org/2018/games/aishitteru-waifu-chan",
+                "display": "GGJ"
+            },
+            {
+                "header": "Source",
+                "data": "https://github.com/PearsonLawrence/Artificial-Intelligence-Dating-Sim",
+                "display": "GitHub"
+            },
+            {
+                "header": "Play",
+                "data": "https://ggj.s3.amazonaws.com/games/2018/02/71175/exec/lJocg/AWC_Data.zip",
+                "display": "Win"
+            }
+        ]
+    },
+    {
+        "jamname": "Interactive Experience Game Jam",
+        "jamtheme": "What is reality?",
+        "gamename": "Recursion",
+        "imagepath": "/images/projects/recursion.png",
+        "description": "Explore the beginning and end of your existence. Prevent the old \"you\" from killing yourself now.",
+        "links":
+        [
+            {
+                "header": "Jam Page",
+                "data": "https://itch.io/jam/ixgj2017/rate/191291",
+                "display": "itch.io"
+            },
+            {
+                "header": "Source",
+                "data": "https://github.com/PearsonLawrence/RoomBreak",
+                "display": "GitHub"
+            },
+            {
+                "header": "Play",
+                "data": "https://github.com/PearsonLawrence/RoomBreak",
+                "display": "Unavailable"
+            }
+        ]
+    },
+    {
         "jamname": "Global Game Jam 2017",
         "jamtheme": "Waves",
         "gamename": "Simon Waves (Sasvez)",
