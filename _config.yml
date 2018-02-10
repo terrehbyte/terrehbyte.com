@@ -43,7 +43,7 @@ whitelist:
   - jekyll-textile-converter
 
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
