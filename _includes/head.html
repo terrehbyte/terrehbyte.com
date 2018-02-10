@@ -2,32 +2,32 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}Terry Nguyen | {{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.webmaster_realname }} | {{ site.title }}{% endif %}</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="theme-color" content="#0e0e0e">
+    <meta name="theme-color" content="{{ site.chrome_theme_color }}">
 
     <!--Facebook-->
     <!--Basic Metadata-->
     <meta property="og:url"         content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
-    <meta property="og:title"       content="{% if page.title %}{{ page.title }}{% else %}Terry Nguyen | {{ site.title }}{% endif %}"/>
+    <meta property="og:title"       content="{% if page.title %}{{ page.title }}{% else %}{{ site.webmaster_realname }} | {{ site.title }}{% endif %}"/>
     <meta property="og:description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}"/>
     <meta property="og:bigimage"    content="{{ page.bigimage | prepend: site.baseurl | prepend: site.url }}"/>
 
     <!--Twitter Cards-->
     <!--Summary Card-->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@terrehbyte">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ author.twitter }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}Terry Nguyen | {{ site.title }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.webmaster_realname }} | {{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}">
     <meta name="twitter:image:src" content="{{ page.bigimage | prepend: site.baseurl | prepend: site.url }}">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
-    <!-- ****** faviconit.com favicons ****** -->
+    <!-- Favicons -->
     <link rel="shortcut icon" href="{{ "/favicon/favicon.ico" | prepend: site.baseurl }}">
     <link rel="icon" sizes="16x16 32x32 64x64" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="196x196" href="{{ "/favicon/favicon-196.png" | prepend: site.baseurl }}">
@@ -46,42 +46,54 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="msapplication-TileImage" content="{{ "/favicon/favicon-144.png" | prepend: site.baseurl }}">
     <meta name="msapplication-config" content="{{ "/favicon/browserconfig.xml" prepend: site.baseurl }}">
-    <!-- ****** faviconit.com favicons ****** -->
 
-	<!-- Google Analytics -->
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  {%- if site.ga_tracking_id %}
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-55657788-1', 'auto');
+    ga('create', '{{ site.ga_tracking_id }}', 'auto');
       ga('require', 'displayfeatures');
-	  ga('send', 'pageview');
+    ga('send', 'pageview');
 
-	</script>
+  </script>
+  {% endif %}
 
-    <!-- Google Structured Data - Website -->
+    {% if page.url == "/" %}
+    <!-- Google Structured Data - Blog -->
     <script type="application/ld+json">
     {  "@context" : "http://schema.org",
-       "@type" : "WebSite",
-       "name" : "terrehbyte",
-       "alternateName" : "terrehbyte blog",
-       "url" : "https://terrehbyte.com"
+       "@type" : "Blog",
+       "name" : "{{ site.title }}",
+       "alternateName" : "{{ site.title }} blog",
+       "url" : "{{ site.url }}"
     }
     </script>
 
-    <!-- Google Structured Data - Blog -->
-    {% if page.is_post %}
+    {%- elsif page.is_post %}
+    <!-- Google Structured Data - BlogPosting -->
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
-      "@type": "NewsArticle",
-      "headline": "{{ page.title }}",
-      "image": "{{ page.bigimage | prepend: site.baseurl }}",
+      "@type": "BlogPosting",
       "datePublished": "{{ page.date | date : "%Y-%m-%d" }}",
+      "author":
+      {
+        "@type": "Person",
+        "name": "{{ author.real_name }}",
+        "url": "{{ author.url }}"
+      },
+      "headline": "{{ page.title }}",
+      "name": {{ page.title }},
+      {%- if page.bigimage %}
+      "image": "{{ page.bigimage | prepend: site.url | prepend: site.baseurl }}",
+      {% endif -%}
       "description": "{{ page.tagline }}",
-      "articleBody": "{{ page.content }}"
+      "mainEntityOfPage": "{{ page.url | prepend: site.url | prepend: site.baseurl}}"
+      "wordCount": "{{ page.content | number_of_words }}"
     }
     </script>
     {% endif %}

@@ -7,6 +7,9 @@ url: "https://terrehbyte.com"
 webmaster_realname: Terry Nguyen
 twitter_username: terrehbyte
 github_username:  terrehbyte
+chrome_theme_color: '#0e0e0e'
+
+ga_tracking_id: UA-55657788-1
 
 authors:
   terrehbyte:
@@ -14,6 +17,7 @@ authors:
     display_name: terrehbyte
     twitter: terrehbyte
     github: terrehbyte
+    url: "https://terrehbyte.com"
 
 # Build settings
 safe: true
