@@ -4,7 +4,7 @@ layout: default
 {% if page.gamedatafolder == blank or page.gamedatafolder == nil %}
   {% assign gamedatapath = "./" %}
 {% else %}
-  {% assign gamedatapath = page.gamedatafolder + "/" %}
+  {% assign gamedatapath = page.gamedatafolder | concat: "/" %}
 {% endif %}
 
 
