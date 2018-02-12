@@ -96,9 +96,14 @@
       "wordCount": "{{ page.content | number_of_words }}",
       "publisher":
       {
-        "@type": "Person",
-        "name": "{{ site.webmaster_realname }}",
-        "url": "{{ site.url | append: site.baseurl | append: '/' }}"
+        "@type": "Organization",
+        "name": "{{ site.title }}",
+        "url": "{{ site.url | append: site.baseurl | append : '/' }}",
+        "logo":
+        {
+          "@type": "ImageObject",
+          "url": "{{ site.logo | prepend: site.baseurl | prepend: site.url }}"
+        }
       }
     }
     </script>
