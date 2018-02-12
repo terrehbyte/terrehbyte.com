@@ -10,8 +10,6 @@ twitter_username: terrehbyte
 github_username:  terrehbyte
 chrome_theme_color: '#0e0e0e'
 
-ga_tracking_id: UA-55657788-1
-
 authors:
   terrehbyte:
     real_name: Terry Nguyen
@@ -19,6 +17,14 @@ authors:
     twitter: terrehbyte
     github: terrehbyte
     url: "https://terrehbyte.com"
+
+# External services
+
+## Uncomment and supply tracking ID to use Google Analytics
+ga_tracking_id: UA-55657788-1
+
+## Uncomment and supply forum shortname to use Disqus
+disqus_short_name: terrehbyte
 
 # Build settings
 safe: true
@@ -46,7 +52,6 @@ whitelist:
   - jekyll-github-metadata
   - jekyll-sass-converter
   - jekyll-textile-converter
-
 
 plugins:
   - jekyll-paginate
