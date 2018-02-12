@@ -43,9 +43,9 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{ "/favicon/favicon-76.png" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ "/favicon/favicon-72.png" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" href="{{ "/favicon/favicon-57.png" | prepend: site.baseurl }}">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="msapplication-TileColor" content="{{ site.chrome_theme_color }}">
     <meta name="msapplication-TileImage" content="{{ "/favicon/favicon-144.png" | prepend: site.baseurl }}">
-    <meta name="msapplication-config" content="{{ "/favicon/browserconfig.xml" prepend: site.baseurl }}">
+    <meta name="msapplication-config" content="{{ "/favicon/browserconfig.xml" | prepend: site.baseurl }}">
 
   {%- if site.ga_tracking_id %}
   <!-- Google Analytics -->
@@ -69,7 +69,7 @@
        "@type" : "Blog",
        "name" : "{{ site.title }}",
        "alternateName" : "{{ site.title }} blog",
-       "url" : "{{ site.url }}"
+       "url" : "{{ site.url | append: site.baseurl | append: '/' }}"
     }
     </script>
 
@@ -84,16 +84,22 @@
       {
         "@type": "Person",
         "name": "{{ author.real_name }}",
-        "url": "{{ author.url }}"
+        "url": "{{ author.url | append: site.baseurl | append : '/' }}"
       },
       "headline": "{{ page.title }}",
       "name": "{{ page.title }}",
       {%- if page.bigimage %}
-      "image": "{{ page.bigimage | prepend: site.url | prepend: site.baseurl }}",
+      "image": "{{ page.bigimage | prepend: site.baseurl | prepend: site.url }}",
       {% endif -%}
       "description": "{{ page.tagline }}",
-      "mainEntityOfPage": "{{ page.url | prepend: site.url | prepend: site.baseurl}}",
-      "wordCount": "{{ page.content | number_of_words }}"
+      "mainEntityOfPage": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+      "wordCount": "{{ page.content | number_of_words }}",
+      "publisher":
+      {
+        "@type": "Person",
+        "name": "{{ site.webmaster_realname }}",
+        "url": "{{ site.url | append: site.baseurl | append: '/' }}"
+      }
     }
     </script>
     {% endif %}

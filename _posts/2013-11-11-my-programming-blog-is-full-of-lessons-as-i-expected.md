@@ -14,10 +14,10 @@ Working with Value
 
 I'm not a graphic designer, but it doesn't take one to see what's wrong here. When I tried to revise my article about taking full page screenshots in Firefox, I noticed that I may have made a grave mistake.  
 
-![Can you spot the problem in my layout?](/images/posts/contrastA.png)
+![Can you spot the problem in my layout?]({{ site.baseurl }}/images/posts/contrastA.png)
 
 My super cool captures of my blog taken while I demonstrate the aforementioned functionality in Firefox are so clear, that it could be mistaken as a broken webpage rendering or confusing the most technologically illiterate but learning netizen. Thankfully, I only tore a few hairs out when attempting to come to terms with capturing desktop movement for the third time when I realized that I might have an easy fix on my hands!  
 
-![Black borders!](/images/posts/contrastA.png)
+![Black borders!]({{ site.baseurl }}/images/posts/contrastA.png)
 
 Black borders! However, it took a good 15 minutes for me to find a nice border width. It doesn't help that I kept refreshing an old preview of it too, so there goes even more time down the drain. Oh well. I learned how to use [LICEcap](http://www.cockos.com/licecap/) though, some nice software I picked up a while back.  

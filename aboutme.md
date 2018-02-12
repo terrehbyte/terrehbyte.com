@@ -9,7 +9,7 @@ author: terrehbyte
 
 # Terry Nguyen
 
-<img src="/images/terry_c.png" style="max-width:20em">
+<img src="{{ site.baseurl }}/images/terry_c.png" style="max-width:20em">
 
 I am an independent game developer with a strong love for programming and arena
 FPS games. I'm always looking for someone to talk to about programming or the
