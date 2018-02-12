@@ -87,7 +87,7 @@
         "url": "{{ author.url }}"
       },
       "headline": "{{ page.title }}",
-      "name": {{ page.title }},
+      "name": "{{ page.title }}",
       {%- if page.bigimage %}
       "image": "{{ page.bigimage | prepend: site.url | prepend: site.baseurl }}",
       {% endif -%}
