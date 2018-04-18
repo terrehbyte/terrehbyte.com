@@ -114,34 +114,49 @@ a:visited { color: #205caa; }
   margin-top: -1.25em;
 }
 
-.site-nav li {
+.site-nav .page-link:hover {
+  color: rgb(184, 184, 184);
+}
+
+.site-nav li span
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: rgb(61, 61, 61);
+  transition: all 0.3s;
+}
+
+.site-nav li, .site-nav a {
   display: inline-block;
   margin-left: 0.75em;
   margin-right: 0.75em;
   position: relative;
+
 }
 
-.site-nav .page-link {
+.site-nav a
+{
   color: #8c8c7d;
-  letter-spacing: -1px;
-  font-size: 1.3em;
-}
-
-.site-nav #cur-nav {
-  border-bottom: 2px dashed rgb(61, 61, 61);
-}
-
-.site-nav a:hover {
-  border-bottom: 2px dashed rgb(61, 61, 61);
-  animation-name: loadline;
-  animation-duration: 0.5s;
   text-decoration: none;
 }
 
-@keyframes loadline
-{
-  from { border-bottom: none; }
-  to { border-bottom: 2px dashed rgb(61, 61, 61); }
+.site-nav a:hover span {
+  color: rgb(184, 184, 184);
+  background: rgb(184, 184, 184);
+  width: 100%;
+}
+
+.site-nav .page-link {
+  letter-spacing: -1px;
+  font-size: 1.3em;
+  transition: all 0.3s;
+}
+
+.site-nav #cur-nav span {
+  width: 100%;
 }
 
 /* Site footer */
