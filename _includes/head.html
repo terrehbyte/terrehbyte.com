@@ -3,8 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.webmaster_realname }} | {{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta name="description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="theme-color" content="{{ site.chrome_theme_color }}">
 

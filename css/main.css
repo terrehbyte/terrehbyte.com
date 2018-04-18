@@ -45,7 +45,7 @@ th
 }
 
 a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+a:hover   { text-decoration: underline; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -73,39 +73,29 @@ a:visited { color: #205caa; }
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5em; 
-  margin-bottom: 5em; 
+  margin-top: 1.5em; 
+  margin-bottom: 1.5em; 
+}
+
+.site-logo
+{
+  margin-bottom: 1em;
 }
 
 #headerlogo {
-  height: 40px;
-  padding-top: 10px;
-  position: relative;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: inline;
-  color: #333;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
-  height: 56px;
-  clear: both;
-}
+  height:40px;
+  padding-top:10px;
+  position:relative;
+  display:block;
+  margin-left:auto;
+  margin-right:auto
+ }
 
 .site-nav {
-  line-height: 56px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  height: 30%;
 }
 
 .site-nav .page-link ul {
@@ -126,19 +116,32 @@ a:visited { color: #205caa; }
 
 .site-nav li {
   display: inline-block;
-  margin-right: -.25em;
+  margin-left: 0.75em;
+  margin-right: 0.75em;
   position: relative;
-  top: 1.25em;
 }
 
 .site-nav .page-link {
-  margin-left: 20px;
   color: #8c8c7d;
-  letter-spacing: -.5px;
+  letter-spacing: -1px;
   font-size: 1.3em;
-  font-weight: 300;
-  /* Box Highlight */
-  padding: 0.2em 0.5em;
+}
+
+.site-nav #cur-nav {
+  border-bottom: 2px dashed rgb(61, 61, 61);
+}
+
+.site-nav a:hover {
+  border-bottom: 2px dashed rgb(61, 61, 61);
+  animation-name: loadline;
+  animation-duration: 0.5s;
+  text-decoration: none;
+}
+
+@keyframes loadline
+{
+  from { border-bottom: none; }
+  to { border-bottom: 2px dashed rgb(61, 61, 61); }
 }
 
 /* Site footer */
@@ -343,7 +346,7 @@ td
   position: relative;
   letter-spacing: -1px;
   
-  padding: 0.0em 1em;
+  margin: 0.0em 1em;
   color: rgb(194, 194, 194);
 }
 
@@ -397,12 +400,13 @@ td
 
 .post-content p
 {
-  font-size: 1em;
+  font-size: 1.1em;
+  line-height: 1.4;
 }
 
 .post-content blockquote p
 {
-  font-size: 0.9em;
+  font-size: 1em;
   margin: 20px 0;
 }
 
