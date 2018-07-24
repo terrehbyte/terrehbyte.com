@@ -3,6 +3,13 @@
 This is the README for the repository housing the Jekyll project powering this
 statically generated blog.
 
+# Setup
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
 # LICENSE
 
 See [LICENSE.md](LICENSE.md) for details.
