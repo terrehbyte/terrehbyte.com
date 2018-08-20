@@ -258,6 +258,11 @@ a:visited { color: #205caa; }
   
 }
 
+.page-content strong
+{
+  font-weight: bold;
+}
+
 /* TODO: Add table styling */
 
 /* Home styles */
@@ -508,8 +513,8 @@ video::-internal-media-controls-download-button {
 
 .post pre,
 .post code {
-  border: 1px solid #102816;
-  background-color: #102816;
+  border: 1px solid #002c45;
+  background-color: #002c45;
   color: #cfd4d0;
   padding: 8px 12px;
   -webkit-border-radius: 3px;
