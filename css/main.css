@@ -1,15 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro&subset=latin,latin-ext);
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Roboto|Space+Mono');
+@import url(//fonts.googleapis.com/css?family=Inconsolata|Roboto|Space+Mono);
 
-/* Base Things*/
+/* Base and Defaults*/
 /* ----------------------------------------------------------*/
-
-::selection {
-  background: #462c03; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #462c03; /* Gecko Browsers */
-}
 
 * {
   margin: 0;
@@ -48,7 +41,14 @@ a         { color: #2a7ae2; text-decoration: none; }
 a:hover   { text-decoration: underline; }
 a:visited { color: #205caa; }
 
-/* Utility */
+::selection {
+  background: #462c03; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #462c03; /* Gecko Browsers */
+}
+
+/* Wrap */
 
 .wrap:before,
 .wrap:after { content:""; display:table; }
@@ -63,11 +63,10 @@ a:visited { color: #205caa; }
   padding-right: 2em;
 }
 
-
-/* Layout Styles */
+/* Header Styles */
 /* ----------------------------------------------------------*/
 
-/* Site header */
+/* header */
 
 .site-header {
   display: block;
@@ -89,7 +88,9 @@ a:visited { color: #205caa; }
   display:block;
   margin-left:auto;
   margin-right:auto
- }
+}
+
+/* nav */
 
 .site-nav {
   margin-left: auto;
@@ -159,7 +160,8 @@ a:visited { color: #205caa; }
   width: 100%;
 }
 
-/* Site footer */
+/* Footer Styles */
+/* ----------------------------------------------------------*/
 
 .site-footer {
   border-top: 1px solid #050505;
@@ -173,7 +175,29 @@ a:visited { color: #205caa; }
   margin-bottom: 15px;
 }
 
-.site-footer .column { float: left; margin-bottom: 15px; }
+.site-footer .column
+{ float: left; margin-bottom: 15px;
+}
+
+.site-footer .column {
+  float: none;
+  clear: both;
+  width: auto;
+  margin: 0 0 15px; }
+
+.site-footer ul { list-style: none; }
+
+.site-footer li,
+.site-footer p {
+  font-size: 15px;
+  letter-spacing: -.3px;
+  color: #828282;
+}
+
+.site-footer .wrap
+{
+  padding: 30px 30px;
+}
 
 .footer-col-1 {
   width: 270px; /*fallback*/
@@ -199,23 +223,6 @@ a:visited { color: #205caa; }
   width: calc(41.875%);
 }
 
-/* Page Content styles */
-/* ----------------------------------------------------------*/
-
-.site-footer ul { list-style: none; }
-
-.site-footer li,
-.site-footer p {
-  font-size: 15px;
-  letter-spacing: -.3px;
-  color: #828282;
-}
-
-.site-footer .wrap
-{
-  padding: 30px 30px;
-}
-
 .github-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
@@ -226,47 +233,10 @@ a:visited { color: #205caa; }
 }
 
 
-/* Page Content styles */
-/* ----------------------------------------------------------*/
-
-.page-content {
-  padding: 1em 1em;
-  background-color: #141414;
-}
-
-.page-content .wrap
-{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.page-content > div
-{
-    margin-bottom: 3em;
-}
-
-.wrap:last-child
-{
-    margin-bottom: 0em;
-}
-
-.page-content img
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.page-content strong
-{
-  font-weight: bold;
-}
-
-/* TODO: Add table styling */
-
 /* Home styles */
 /* ----------------------------------------------------------*/
+
+/* showcase */
 
 .showcase
 {
@@ -338,13 +308,6 @@ td
   display: flex; /*for the future when you might want even/odd coloring for each post entry*/
 }
 
-/*
-.posts li:nth-child(even)
-{
-    background-color: #0c0c0c;
-}
-*/
-
 .posts .post-date
 {
   display: block;
@@ -392,8 +355,50 @@ td
   border-bottom: 1px dashed rgb(61, 61, 61);
 }
 
-/* Post styles */
+/* Default Page Content styles */
 /* ----------------------------------------------------------*/
+
+.page-content {
+  padding: 1em 1em;
+  background-color: #141414;
+}
+
+.page-content .wrap
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.page-content > div
+{
+    margin-bottom: 3em;
+}
+
+.wrap:last-child
+{
+    margin-bottom: 0em;
+}
+
+.page-content img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.page-content strong
+{
+  font-weight: bold;
+}
+
+/* TODO: Add table styling */
+
+
+/* Layout-specific styles */
+/* ----------------------------------------------------------*/
+
+/* Post styles */
 
 .post-header
 {
@@ -439,8 +444,6 @@ td
   line-height: 1;
   font-weight: 300;
 }
-
-
 
 .post-content h1{
   font-size: 40px;
@@ -547,8 +550,8 @@ video::-internal-media-controls-download-button {
 
 .post pre.terminal code { background-color: #333; }
 
-/* Page-specific styles */
-/* ----------------------------------------------------------*/
+/* Projects styles */
+
 .projects img
 {
   position: relative;
@@ -560,7 +563,6 @@ video::-internal-media-controls-download-button {
 .projects p
 {
   display: block;
-  vertical-align: text-top;
 }
 
 .projects table
@@ -645,19 +647,7 @@ video::-internal-media-controls-download-button {
   padding: 1em;
   overflow: auto;
 }
-/*
-.project-showcase img
-{
-  display: flex;
-  max-width: 33%;
-}
 
-.project-showcase p
-{
-  display: flex;
-  flex-direction: column;
-}
-*/
 .project-showcase #thumb
 {
   float: left;
@@ -674,25 +664,6 @@ video::-internal-media-controls-download-button {
 {
   padding-left: 1em;
 }
-
-/* shitty table columns */
-/*
-.projects tr td
-{
-  border-left: 3px solid white;
-  
-}
-
-.projects tr td:first-child
-{
-  border-left: none;
-}
-
-.projects tr td:last-child
-{
-  border-right: none;
-}
-*/
 
 /* Pagination */
 /* ----------------------------------------------------------*/
@@ -791,16 +762,7 @@ video::-internal-media-controls-download-button {
 .highlight .vi { color: #008080 } /* Name.Variable.Instance */
 .highlight .il { color: #009999 } /* Literal.Number.Integer.Long */
 
-
-
-
-.site-footer .column {
-  float: none;
-  clear: both;
-  width: auto;
-  margin: 0 0 15px; }
-
-
+/* Mobile-friendly considerations */
 
 @media screen and (max-width: 39.5em)
 {
@@ -858,7 +820,4 @@ video::-internal-media-controls-download-button {
   {
     padding: initial;
   }
-
-  
-
 }

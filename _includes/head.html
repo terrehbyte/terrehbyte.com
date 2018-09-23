@@ -64,11 +64,11 @@
     {% if page.url == "/" %}
     <!-- Google Structured Data - Blog -->
     <script type="application/ld+json">
-    {  "@context" : "http://schema.org",
-       "@type" : "Blog",
-       "name" : "{{ site.title }}",
-       "alternateName" : "{{ site.title }} blog",
-       "url" : "{{ site.url | append: site.baseurl | append: '/' }}"
+    { "@context" : "http://schema.org",
+      "@type" : "Blog",
+      "name" : "{{ site.title }}",
+      "alternateName" : "{{ site.title }} blog",
+      "url" : "{{ site.url | append: site.baseurl | append: '/' }}"
     }
     </script>
 
