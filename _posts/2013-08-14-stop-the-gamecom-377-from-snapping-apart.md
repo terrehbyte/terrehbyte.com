@@ -39,7 +39,3 @@ in the headset, you can create a new band that isn't too high-profile and will
 make sure that your worries will be a thing of the past. Detailed instructions
 and diagrams are [found at their
 thread](http://www.head-fi.org/t/551961/fix-completely-cracked-and-broken-headphones-guide).
-
-If you've solved this problem yourself somehow, would you care to please leave
-it in the comments somewhere? You could also drop me an e-mail via the [contact
-page](/lets talk/).  

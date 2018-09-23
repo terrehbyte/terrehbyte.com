@@ -31,7 +31,7 @@ in your file system. Point A represents the "link" while point B provides the
 "destination". Anything that tries to access point A will work from point B
 for any subsequent references for directories or files.
 
-![Creating a symlink from 'johnny' to 'terry'](\images\posts\mklink.gif)
+![Creating a symlink from 'johnny' to 'terry'](/images/posts/mklink.gif)
 
 Creating one will depend on your operating system and available tools, but the
 general idea is that you'll use a command-line application. On [Windows 10][SOCreatingSymLinks], this
