@@ -1,5 +1,7 @@
 # terrehbyte.github.io
 
+[![Build Status](https://travis-ci.com/terrehbyte/terrehbyte.github.io.svg?branch=master)](https://travis-ci.com/terrehbyte/terrehbyte.github.io)
+
 This is the README for the repository housing the Jekyll project powering this
 statically generated blog.
 
