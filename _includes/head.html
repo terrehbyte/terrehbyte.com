@@ -13,7 +13,7 @@
     <meta property="og:title"       content="{% if page.title %}{{ page.title }}{% else %}{{ site.webmaster_realname }} | {{ site.title }}{% endif %}"/>
     <meta property="og:description" content="{% if page.tagline %}{{ page.tagline }}{% elsif page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' | truncatewords: 15 | strip_html }}{% else %}{{site.description}}{% endif %}"/>
     <meta property="og:image"       content="{{ page.bigimage | prepend: site.baseurl | prepend: site.url }}"/>
-    <meta property="og:site_name"   content="{{ site.name }}"/>
+    <meta property="og:site_name"   content="{{ site.title }}"/>
     <meta property="og:type"        content="article"/>
 
     <!--Twitter Cards-->
