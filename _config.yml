@@ -39,6 +39,7 @@ exclude:
   - LICENSE.md
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 whitelist:
   - jekyll-mentions
