@@ -3,14 +3,17 @@
 This is the README for the repository housing the Jekyll project powering this
 statically generated blog.
 
-# Setup
+## Setup
 
-```
+An installation of Ruby 2.7+ with devkit is required due to the use of native
+code in building this blog.
+
+```shell
 bundle install
 bundle exec jekyll serve
 ```
 
-# LICENSE
+## LICENSE
 
 See [LICENSE.md](LICENSE.md) for details.
 
