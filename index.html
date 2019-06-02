@@ -22,7 +22,7 @@ navbarid: -1
           {% endif %}
           <li>
             <span class="post-date">
-              {{ post.date | date: "%m.%d.%Y" }}
+              {{ post.date | date: "%Y.%m.%d" }}
             </span>
             
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
