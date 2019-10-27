@@ -2,13 +2,12 @@ language: ruby
 rvm:
   - 2.4.1
 
-before_install:
-  - rm Gemfile.lock
-
 before_script:
   - chmod +x _bin/html-validate.sh
+  - chmod +x _bin/build.sh
 
-script: _bin/html-validate.sh
+script:
+  - _bin/build.sh
 
 env:
   global:
