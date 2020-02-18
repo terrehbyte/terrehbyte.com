@@ -1,5 +1,19 @@
 [
     {
+        "projectname": "ADGP Handbook",
+        "role": "Game Programming Instructor @ Academy of Interactive Entertainment (Seattle Campus)",
+        "date": "February 2018 - Present",
+        "imagepath": "/images/projects/adgp.png",
+        "description": "Course content authored by the AIE Seattle campus for its Game Programming students.",
+        "links": [
+            {
+                "header": "Website",
+                "data": "aie.edu/",
+                "display": "Web"
+            }
+        ]
+    },
+    {
         "projectname": "TBYTEConsole",
         "role": "Solo Developer @ terrehbyte",
         "date": "October 2016 - Present",
@@ -17,8 +31,8 @@
     {
         "projectname": "Vextar",
         "role": "Programmer @ BabyKatsu",
-        "date": "June 2016 - Present",
-        "imagepath": "/images/projects/Vextar.png",
+        "date": "June 2016 - Hiatus",
+        "imagepath": "/images/projects/vextarfps.png",
         "description": "Vextar is a multiplayer, first-person arena shooter created by a talented five-person dev team in Seattle, Washington.",
         "links":
         [
@@ -26,6 +40,11 @@
                 "header": "Website",
                 "data": "http://vextar.xyz",
                 "display": "Web"
+            },
+            {
+                "header": "Video",
+                "data": "https://www.youtube.com/watch?v=czkWPdwsKME",
+                "display": "YouTube"
             }
         ]
     },
