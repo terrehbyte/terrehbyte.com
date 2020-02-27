@@ -27,7 +27,6 @@ author: terrehbyte
               <em>{{ project.date }}</em>
             </p>
             <p>
-              <br>
               {{ project.description }}
             </p>
           </div>
