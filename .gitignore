@@ -1,22 +1,12 @@
-# Jekyll
-_site
-.jekyll-metadata
+# Hugo default output directory
+/public
 
-# Windows image file caches
+## OS Files
+# Windows
 Thumbs.db
 ehthumbs.db
-
-# Folder config file
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
+# OSX
+.DS_Store

@@ -1,0 +1,48 @@
+.logo__cursor
+{
+	background: #f1aa00;
+}
+
+.posts
+{
+	width: 100%;
+	max-width: 800px;
+}
+
+.post-list
+{
+	text-align: left;
+	line-height: normal;
+	margin-left: 0px;
+}
+
+.post-list h2
+{
+	font-size: 1rem;
+	font-weight: 700;
+}
+
+.post-list li
+{
+	display: flex;
+	padding-bottom: 0.5em;
+}
+
+.post-list .post-date
+{
+	display: block;
+	float: left;
+}
+
+.post-list .post-link
+{
+	display: inline;
+	position: relative;
+	margin: 0.0em 1em;
+}
+
+.post h2, h3, h4, h5 {
+	border-bottom: 1px dashed gray;
+	margin-bottom: 0.1em;
+}
+
