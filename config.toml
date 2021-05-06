@@ -1,3 +1,4 @@
+baseURL = "/"
 languageCode = "en-us"
 title = "Terry Nguyen @ terrehbyte"
 theme = "cactus"
