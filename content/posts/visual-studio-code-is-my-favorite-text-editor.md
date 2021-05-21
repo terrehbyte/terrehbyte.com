@@ -34,7 +34,7 @@ to run into an issue with Visual Studio: the text editor settings can only be
 set program-wide. I was going to have to switch back and forth or find a
 suitable extension to do so if I wanted to adhere to the conventions we had set.
 
-![workspace-specific]({{ site.baseurl }}/images/workspace-specific.PNG)
+![workspace-specific](/images/workspace-specific.PNG)
 
 In VS Code, the concept of a "workspace" allows you to define a set of settings
 that apply when a folder is opened. Creating an override for a specific workspace was pretty simple; I just had to
@@ -47,8 +47,8 @@ agreed-to conventions.
 
 <div center>
   <video playsinline autoplay muted loop controls controlsList="nodownload">
-    <source src="{{ site.baseurl }}/images/a_tale_of_two_vs.webm"/>
-    <img src="{{ site.baseurl }}/images/a_tale_of_two_vs.gif"/>
+    <source src="/images/a_tale_of_two_vs.webm"/>
+    <img src="/images/a_tale_of_two_vs.gif"/>
   </video>
 </div>
 
@@ -133,7 +133,7 @@ one platform alone.
 
 ### High versatility through extensions and settings
 
-![Screenshot of VS Code's extension panel]({{ site.baseurl }}/images/posts/vscode-ext.PNG)
+![Screenshot of VS Code's extension panel](/images/posts/vscode-ext.PNG)
 
 Both [Visual Studio][VS-ext] and [VS Code][VSCode-ext] offer a plentiful
 extension gallery that is easy to browse from your preferred web browser as well

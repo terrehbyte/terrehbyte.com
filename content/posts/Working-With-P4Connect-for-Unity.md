@@ -35,7 +35,7 @@ us the ability to restrict team members from accidentally making edits to the
 same scene or breaking prefabs between merges by limiting changes to a single
 user at any given time. It's not an entirely automated process though.  
 
-![Perforce Exception]({{ site.baseurl }}/images/posts/p4exception.png)
+![Perforce Exception](/images/posts/p4exception.png)
 
 1. Team members need to manually checkout assets if what they're editing affects
    more than one thing. Automatic checkouts are handy when it comes to scripts,

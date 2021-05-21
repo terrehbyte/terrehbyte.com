@@ -4,7 +4,7 @@ title = "Terry Nguyen @ terrehbyte"
 theme = "cactus"
 copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-# googleAnalytics = "UA-1234-5"
+# googleAnalytics = "UA-55657788-1"
 
 [params]
   colortheme = "terry" # dark, light, white, classic, or terry (based on white)
@@ -40,7 +40,7 @@ copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
-    [[params.social]]
+  [[params.social]]
     name = "facebook"
     link = "https://www.facebook.com/terrehbyte/"
   [[params.social]]
@@ -63,19 +63,14 @@ url = "/"
 weight = 1
 
 [[menu.main]]
+name = "About"
+url = "/about-me"
+weight = 2
+
+[[menu.main]]
 name = "Archive"
 url = "/posts"
 weight = 3
-
-#[[menu.main]]
-#name = "Tags"
-#url = "/tags"
-#weight = 3
-
-[[menu.main]]
-name = "About"
-url = "/about me"
-weight = 2
 
 [markup]
   [markup.tableOfContents]

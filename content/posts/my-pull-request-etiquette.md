@@ -49,7 +49,7 @@ that I could readily fix on my own since I had already identified them. It was
 also just Markdown, so it was technically still valid, just unappealing to look
 at.
 
-![I wasn't too harsh, was I? :)]({{ site.baseurl }}/images/posts/github thanks.png)
+![I wasn't too harsh, was I? :)](/images/posts/github%20thanks.png)
 
 While the puritan in me wanted to ask them to redo it, I ultimately leaned on
 the side of accepting it and fixing it on my own. Putting the typographical

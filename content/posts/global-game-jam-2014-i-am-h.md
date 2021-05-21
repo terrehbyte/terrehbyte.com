@@ -18,8 +18,7 @@ redirect_from: /2014/01/27/global-game-jam-2014-i-am-h/
 title: Global Game Jam 2014 - I am H
 ---
 
-![First level of 'I Am H', my group's GGJ2014 entry]({{ site.baseurl }}{{
-site.baseurl }}/images/posts/I_Am_H.png)
+![First level of 'I Am H', my group's GGJ2014 entry](/images/posts/I_Am_H.png)
 
 My first participation in Global Game Jam marks my second time working as in a
 team with the Unity engine. This time proved especially interesting since I got
