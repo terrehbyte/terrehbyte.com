@@ -19,6 +19,8 @@ _This was edited by [Lizz Rizzo (@lizz0id)][lizz] and written for the
 [lizz]:https://twitter.com/lizz0id
 [aie]:https://aie.edu/
 
+<!--start-summary-->
+
 Understanding how to use version control systems (VCS) to manage your work is a
 key skill of any developer, whether you're a hobbyist or professional. It can
 serve as a way to track what changes in your project (especially if you're

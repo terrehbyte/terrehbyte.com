@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Terry Nguyen @ terrehbyte"
+title = "Terry Nguyen"
 theme = "cactus"
 copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
@@ -11,9 +11,20 @@ copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
   logo = "images/terry_irl_tiny.jpg"
+  showHeaderOnPosts = true
 
   # Home page settings
-  description = "<strong>Hey, Terry here!</strong><br>You can find my blog posts, past projects, and other things about me on my website."
+  description = """
+  **Howdy, I'm Terry (aka terrehbyte)!**
+
+  I work as a Game Programmer :gear: and Educator :apple: but spare some time
+  for tinkering with mechanical keyboards :keyboard: and some gaming :video_game:
+  when I can.
+
+  Please reach out if you've got a question or have an opportunity to discuss.
+  
+  ----
+  """
   
   mainSection = "posts" # your main section
   mainSectionLabel = "Recent Posts" # your main section heading label
@@ -38,6 +49,9 @@ copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if
   # https://fontawesome.com/icons?d=gallery&s=brands
 
   [[params.social]]
+    name = "email"
+    link = "terry@terrehbyte.com"  # no need for "mailto:" in the head
+  [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
   [[params.social]]
@@ -49,9 +63,6 @@ copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/terrehbyte/"
-  [[params.social]]
-    name = "email"
-    link = "terry@terrehbyte.com"  # no need for "mailto:" in the head
 
 [permalinks]
   posts = "/:filename/"
@@ -71,11 +82,3 @@ weight = 2
 name = "Archive"
 url = "/posts"
 weight = 3
-
-[markup]
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
-  [markup.goldmark.renderer]
-  unsafe= true

@@ -19,6 +19,8 @@ _This was edited by [Lizz Rizzo (@lizz0id)][lizz] and published for the
 [lizz]:https://twitter.com/lizz0id
 [aie]:https://aie.edu/aie-minor-production-process/
 
+<!--start-summary-->
+
 One of the most valuable parts of the course for our Game Development students
 is the opportunity to collaborate with their peers from other disciplines for
 their final project at the end of each school year.
