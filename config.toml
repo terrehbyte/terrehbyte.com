@@ -2,7 +2,7 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Terry Nguyen"
 theme = "cactus"
-copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if copyright is not set
+copyright = "Terry Nguyen" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-55657788-1"
 
@@ -31,7 +31,7 @@ copyright = "Copyright &copy; 2012-2021 Terry Nguyen" # cactus will use title if
   showAllPostsOnHomePage = false # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+  showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/terrehbyte" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
