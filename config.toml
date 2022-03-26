@@ -14,7 +14,9 @@ copyright = "Terry Nguyen" # cactus will use title if copyright is not set
   showHeaderOnPosts = true
 
   # Home page settings
-  description = """
+  description = "Terry Nguyen's Blog"
+
+  intro = """
   **Howdy, I'm Terry (aka terrehbyte)!**
 
   I work as a Game Programmer :gear: and Educator :apple: but spare some time
