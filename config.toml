@@ -43,6 +43,8 @@ copyright = "Terry Nguyen" # cactus will use title if copyright is not set
   show_updated = true # defaults to false
   showReadTime = false # default to false
 
+  showMobileMenu = false
+
   #[params.comments]
    # enabled = false # default
     #engine = "disqus" # more supported engines will be added.
