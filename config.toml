@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Terry Nguyen"
 theme = "cactus"
 copyright = "Terry Nguyen" # cactus will use title if copyright is not set
+
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-55657788-1"
 
@@ -29,7 +30,9 @@ copyright = "Terry Nguyen" # cactus will use title if copyright is not set
   """
   
   mainSection = "posts" # your main section
+  noticesSection = "thirdparty" # your notices section
   mainSectionTitle = "Recent Posts" # your main section heading label
+  noticesSectionTitle = "NOTICES" # your notices section label
   showAllPostsOnHomePage = false # default to false
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
