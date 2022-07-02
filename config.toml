@@ -20,9 +20,9 @@ copyright = "Terry Nguyen" # cactus will use title if copyright is not set
   intro = """
   **Howdy, I'm Terry (aka terrehbyte)!**
 
-  I work as a Game Programmer :gear: and Educator :apple: but spare some time
-  for tinkering with mechanical keyboards :keyboard: and some gaming :video_game:
-  when I can.
+  I work as a **Game Programmer** :gear: and **Educator** :apple: but spare some
+  time for tinkering with **mechanical keyboards** :keyboard: and some
+  **gaming** :video_game: when I can.
 
   Please reach out if you've got a question or have an opportunity to discuss.
   
@@ -59,14 +59,18 @@ copyright = "Terry Nguyen" # cactus will use title if copyright is not set
     name = "email"
     link = "terry@terrehbyte.com"  # no need for "mailto:" in the head
   [[params.social]]
+    name = "github"
+    link = "https://github.com/terrehbyte"
+  [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
   [[params.social]]
+    name = "discord"
+    link = "/discord"
+    target = "_self"
+  [[params.social]]
     name = "facebook"
     link = "https://www.facebook.com/terrehbyte/"
-  [[params.social]]
-    name = "github"
-    link = "https://github.com/terrehbyte"
   [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/terrehbyte/"
