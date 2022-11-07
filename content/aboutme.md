@@ -4,6 +4,7 @@ title: About
 tagline: A word about Terry Nguyen.
 url: /about-me/
 navbarid: 0
+date: "2021-05-05T20:18:29-07:00"
 ---
 
 # About Terry

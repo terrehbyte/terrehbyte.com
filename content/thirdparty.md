@@ -1,3 +1,9 @@
+---
+layout: page
+title: Third Party and Attributions
+tagline: NOTICES and THIRDPARTY Attributions
+permalink: /thirdparty/
+---
 # Third Party and Attributions
 
 ## Food and a little bit of kitchenware
