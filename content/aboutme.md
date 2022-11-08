@@ -37,7 +37,9 @@ Here's a quick overview of where I've worked in the past:
 
 I also serve on the [IGDA Seattle](https://igdaseattle.org/) Board. 💖
 
-Just _click on any org in the table_ ☝️ or _scroll down_ to see what I've done:
+A list of projects I've worked on can be found on the [Projects](/projects/) page.
+
+Otherwise, just _click on any org in the table_ ☝️ or _scroll down_ to see what I've done:
 
 ### Undisclosed Studio
 ![Banner image for unannounced studio](/posts/about/unannounced.png)
@@ -60,7 +62,7 @@ My major contributions to the project to date:
 - Upgraded the project from Unity 2019.X to 2020.X
 - Prepare **game demo for release** during _Steam Next Fest June 2022 Edition_
 
-A Steam release is expected in 2022.
+The game was released on Steam release in September 2022.
 
 ### AIE Seattle
 ![Banner image for AIE Seattle featuring a screenshot of a demo project](/posts/about/aie_seattle.png)
