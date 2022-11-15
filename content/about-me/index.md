@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About
+title: About Terry
 tagline: A word about Terry Nguyen.
-url: /about-me/
 navbarid: 0
 date: "2021-05-05T20:18:29-07:00"
 ---
@@ -42,7 +41,7 @@ A list of projects I've worked on can be found on the [Projects](/projects/) pag
 Otherwise, just _click on any org in the table_ ☝️ or _scroll down_ to see what I've done:
 
 ### Undisclosed Studio
-![Banner image for unannounced studio](/posts/about/unannounced.png)
+![Banner image for unannounced studio](unannounced.png)
 
 I'm working part-time for an undisclosed studio as its **Principal Programmer**.
 I am the _sole engineer_ for the team and work closely with artists and designers.
@@ -65,7 +64,7 @@ My major contributions to the project to date:
 The game was released on Steam release in September 2022.
 
 ### AIE Seattle
-![Banner image for AIE Seattle featuring a screenshot of a demo project](/posts/about/aie_seattle.png)
+![Banner image for AIE Seattle featuring a screenshot of a demo project](aie_seattle.png)
 
 I'm a faculty member working as a **Game Programming Instructor** at [**AIE
 Seattle**](https://seattle.aie.edu). I help deliver a two year course training
@@ -126,7 +125,7 @@ Subjects that I have updated or written are as follows:
 - Game Engine Scripting
 
 ### Vextar Dev Team
-![Banner image for Vextar Dev Team featuring a screenshot of a Vextar](/posts/about/vextar.png)
+![Banner image for Vextar Dev Team featuring a screenshot of a Vextar](vextar.png)
 
 I was the **Lead Programmer** for Vextar, a first-person multiplayer "disk-on-disk"
 shooter action game where players attempt to bounce each other out of the arena
@@ -160,7 +159,7 @@ Position | Lead Programmer
 -->
 
 ### Thar Be Monsters
-![Banner image for Thar Be Monsters featuring the main character and their flamethrower](/posts/about/tharbemonsters.png)
+![Banner image for Thar Be Monsters featuring the main character and their flamethrower](tharbemonsters.png)
 
 I provided my services as a **Build Engineer (Contract)**, working on **Blubber
 Busters**, a run-and-gun 2D action platformer that pits players into the depths
@@ -173,7 +172,7 @@ My responsibilities are as follows:
 - Managing the **Perforce server's settings** and provisioning team members with depot access
 
 ### Litesprite
-![Banner image for Litesprite and Sinasprite](/posts/about/litesprite.png)
+![Banner image for Litesprite and Sinasprite](litesprite.png)
 
 I served as the **Interim Technical Director** for its flagship project,
 **Sinasprite**, a clinically-validated mental health care mobile game.
