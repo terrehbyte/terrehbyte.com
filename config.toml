@@ -67,6 +67,10 @@ enableEmoji = true
     link = "https://mastodon.gamedev.place/@terrehbyte"
     rel = "me"
   [[params.social]]
+    name = "mastodon"
+    link = "https://sakurajima.moe/@terrehbyte"
+    rel = "me"
+  [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
   [[params.social]]
