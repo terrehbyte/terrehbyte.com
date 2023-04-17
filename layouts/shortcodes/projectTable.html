@@ -1,0 +1,21 @@
+<div class="table-height-3 vertical-center table-even-background">
+    <table>
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Year</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ range .Site.Data.projects.list }}
+            <tr>
+                <td>{{ .name }}{{ if and .org (not .isOrgHidden) }} by {{ .org }} {{ end }}{{ if .isCommercial }} 💵{{ end }}</td>
+                <td>{{ .year }}</td>
+                <td>{{ .desc | markdownify }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+
+</div>

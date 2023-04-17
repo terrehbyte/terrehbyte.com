@@ -1,0 +1,139 @@
+{
+    "list": [
+        {
+            "name": "Undisclosed project",
+            "org": "Undisclosed org",
+            "isOrgHidden": true,
+            "desc": "Narrative-focused dating sim w/ platforming (Steam)",
+            "year": "22",
+            "url": "/about-me/#undisclosed-studio",
+            "img": "/about-me/unannounced.png",
+            "featured": true,
+            "skills": [ "Windows", "C#", "Unity" ],
+            "role": "Principal Programmer",
+            "contribution": "Sole programmer on a semi-open-world dating sim with platforming elements. Other systems include (mini-)quests, character, and save/load of world state + player state.",
+            "isCommercial": true
+        },
+        {
+            "name": "StarRatings",
+            "desc": "\"Star Rating\"-type extension for Playnite ([GitHub](https://github.com/terrehbyte/StarRatings))",
+            "year": "22",
+            "url": "https://github.com/terrehbyte/StarRatings#star-ratings",
+            "img": "/images/projects/starbanners.png",
+            "featured": true,
+            "skills": [
+                "Windows",
+                "C#",
+                "Unity"
+            ],
+            "role": "Personal Project",
+            "contribution": "Open-source plugin that allows rating games in Playnite with 1-5 (or whatever) stars instead of numbers. Started as a personal project, but open for public use."
+        },
+        {
+            "name": "unitywhere",
+            "desc": "Artist/designer friendly unity project launcher ([GitHub](https://github.com/terrehbyte/unitywhere)), inspired by vswhere",
+            "year": "22"
+        },
+        {
+            "name": "MoreGizmos",
+            "desc": "Extended debug rendering tools for Unity ([GitHub](https://github.com/terrehbyte/MoreGizmos))",
+            "year": "20"
+        },
+        {
+            "name": "TBYTEConsoleApp",
+            "desc": "Editor/runtime in-game console ([GitHub](https://github.com/terrehbyte/TBYTEConsoleApp))",
+            "year": "19"
+        },
+        {
+            "name": "oshacoaster",
+            "desc": "Safety violation tycoon game ([itch.io](https://terrehbyte.itch.io/osha-coaster))",
+            "year": "19",
+            "tags": ["#GGJ20"]
+        },
+        {
+            "name": "UNETEntities",
+            "desc": "Lag comp. and client prediction demo ([GitHub](https://github.com/terrehbyte/UNETEntities))",
+            "year": "19"
+        },
+        {
+            "name": "Beyond Home",
+            "desc": "Third-person stealth action game ([itch.io](https://raysoyama.itch.io/beyond-home))",
+            "tags": ["#GGJ19"],
+            "year": "19"
+        },
+        {
+            "name": "Vextar",
+            "desc": "First-person disc action game ([itch.io](https://vextardevteam.itch.io/vextar))",
+            "year": "18",
+            "url": "/about-me/#vextar-dev-team",
+            "img": "/about-me/vextar.png",
+            "org": "Vextar Dev Team",
+            "role": "Lead Programmer",
+            "isCommercial": true,
+            "featured": true,
+            "skills": [
+                "Windows",
+                "C++",
+                "UE Blueprints",
+                "Unreal Engine 4"
+            ],
+            "contribution": "Implemented gameplay mechanics with server-authoritative networking, and UI systems."
+        },
+        {
+            "name": "DadSonSpaceCo",
+            "desc": "Local co-op space shooter ([itch.io](https://terrehbyte.itch.io/a-dad-and-son-space-company))",
+            "year": "18",
+            "tags": ["#TrainJam2018"]
+        },
+        {
+            "name": "RitualNow",
+            "desc": "Logistics management simulation ([GitHub](https://github.com/terrehbyte/RitualNow))",
+            "year": "18",
+            "tags": ["#GGJ18"]
+        },
+        {
+            "name": "Simon Waves",
+            "desc": "Motion-based \"Simon Says\" clone ([Android](https://play.google.com/store/apps/details?id=com.TerryJacobShawn.SimonWaves))",
+            "year": "17",
+            "tags": ["#GGJ17"]
+        },
+        {
+            "name": "Triple Peaks",
+            "desc": "Murder mystery mini-games ([GGJ](https://globalgamejam.org/2015/games/triple-peaks))",
+            "year": "16",
+            "tags": ["#GGJ16"]
+        },
+        {
+            "name": "Blubber Busters",
+            "org": "Thar Be Monsters",
+            "desc": "Run-and-gun action platformer ([Twitter](https://twitter.com/tharbemonsters))",
+            "year": "15",
+            "img": "/about-me/tharbemonsters.png",
+            "isCommercial": true
+        },
+        {
+            "name": "Sinasprite",
+            "org": "Litesprite",
+            "desc": "Clinically-validated mental health game ([Android](https://play.google.com/store/apps/details?id=com.litesprite.sinaspritepro)) ([iOS](https://apps.apple.com/us/app/sinasprite/id929681872))",
+            "year": "15",
+            "url": "/about-me/#litesprite",
+            "img": "/about-me/litesprite.png",
+            "role": "Interim Technical Director",
+            "isCommercial": true,
+            "featured":true,
+            "skills": [
+                "Android",
+                "iOS",
+                "C#",
+                "Unity"
+            ],
+            "contribution": "Coordinated efforts between engineering, art, design, and leadership while responsible for UI and gameplay systems. Migrated the team from SVN to Git as well as from DGUI to uGUI."
+        },
+        {
+            "name": "I Am H",
+            "desc": "First-person psychological adventure game ([GGJ](https://globalgamejam.org/2014/games/i-am-h))",
+            "year": "15",
+            "tags": ["#GGJ15"]
+        }
+    ]
+}

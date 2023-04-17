@@ -61,7 +61,7 @@ My major contributions to the project to date:
 - Upgraded the project from Unity 2019.X to 2020.X
 - Prepare **game demo for release** during _Steam Next Fest June 2022 Edition_
 
-The game was released on Steam release in September 2022.
+The game was released on Steam release in September 2022. :rocket:
 
 ### AIE Seattle
 ![Banner image for AIE Seattle featuring a screenshot of a demo project](aie_seattle.png)

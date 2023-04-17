@@ -31,13 +31,14 @@ enableEmoji = true
   """
   
   mainSection = "posts" # your main section
+  projSection = "projects" # your projects section
   noticesSection = "thirdparty" # your notices section
   mainSectionTitle = "Recent Posts" # your main section heading label
   noticesSectionTitle = "NOTICES" # your notices section label
   showAllPostsOnHomePage = false # default to false
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = false # show tags overview by default.
-  showProjectsList = false # show projects list by default (if projects data file exists).
+  showProjectsList = true # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/terrehbyte" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
