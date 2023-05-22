@@ -1,0 +1,24 @@
+<ul class="project-list p0">
+    {{ range .Site.Data.projects.list }}
+        {{ if .featured }}
+        <li>
+            <div class="project-item">
+                <a href="{{ .url }}">
+                    <img class="project-img"
+                        src="{{ .img }}"
+                        width="100%">
+                    <span class="project-label">{{ .name }}</span>
+                </a>
+            </div>
+            <div class="project-at-a-glance">
+                <!-- only show if org is defined and isOrgHidden is not set -->
+                <span><strong>{{ .role }}</strong> {{ if and .org (not .isOrgHidden) }} at <strong>{{ .org }}</strong> {{ end }} - </span>
+                {{ range .skills }}
+                <span class="project-skill">{{ . }}</span>
+                {{ end }}
+            </div>
+            <span class="project-contribution">{{ .contribution }}</span>
+        </li>
+        {{ end }}
+    {{ end }}
+</ul>

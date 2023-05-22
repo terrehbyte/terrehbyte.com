@@ -10,7 +10,13 @@
         <tbody>
             {{ range .Site.Data.projects.list }}
             <tr>
-                <td>{{ .name }}{{ if and .org (not .isOrgHidden) }} by {{ .org }} {{ end }}{{ if .isCommercial }} 💵{{ end }}</td>
+                <td>
+                    {{ if .url }}
+                    <a href="{{ .url }}">{{ .name }}</a>
+                    {{else }}
+                    {{ .name }}
+                    {{ end }}
+                    {{ if and .org (not .isOrgHidden) }} by {{ .org }} {{ end }}{{ if .isCommercial }} 💵{{ end }}</td>
                 <td>{{ .year }}</td>
                 <td>{{ .desc | markdownify }}</td>
             </tr>

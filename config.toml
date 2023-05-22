@@ -31,9 +31,10 @@ enableEmoji = true
   """
   
   mainSection = "posts" # your main section
-  projSection = "projects" # your projects section
+  projSection = "/about-me/#projects" # your projects section
   noticesSection = "thirdparty" # your notices section
   mainSectionTitle = "Recent Posts" # your main section heading label
+  projectsSectionTitle = "Recent Project" # your projects section heading label
   noticesSectionTitle = "NOTICES" # your notices section label
   showAllPostsOnHomePage = false # default to false
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true

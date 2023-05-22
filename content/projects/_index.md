@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Projects
 tagline: My current and past projects.
 url: /projects/
@@ -8,7 +8,9 @@ navbarid: 2
 
 # Projects
 
-Here's a quick list of the notable projects I've created or contributed to (big and small):
+Here's a list of all the projects, big or small, that I've created or contributed to.
+
+Some projects have additional information available by clicking on its name.
 
 {{< projectTable >}}
 

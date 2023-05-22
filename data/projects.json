@@ -2,16 +2,16 @@
     "list": [
         {
             "name": "Undisclosed project",
-            "org": "Undisclosed org",
+            "org": "Undisclosed studio",
             "isOrgHidden": true,
             "desc": "Narrative-focused dating sim w/ platforming (Steam)",
             "year": "22",
-            "url": "/about-me/#undisclosed-studio",
+            "url": "/projects/undiscloseda/",
             "img": "/about-me/unannounced.png",
             "featured": true,
             "skills": [ "Windows", "C#", "Unity" ],
             "role": "Principal Programmer",
-            "contribution": "Sole programmer on a semi-open-world dating sim with platforming elements. Other systems include (mini-)quests, character, and save/load of world state + player state.",
+            "contribution": "Created a semi-open-world dating sim with platforming elements. Other systems include (mini-)quests, character, and save/load of world state + player state.",
             "isCommercial": true
         },
         {
@@ -65,7 +65,7 @@
             "name": "Vextar",
             "desc": "First-person disc action game ([itch.io](https://vextardevteam.itch.io/vextar))",
             "year": "18",
-            "url": "/about-me/#vextar-dev-team",
+            "url": "/projects/vextar/",
             "img": "/about-me/vextar.png",
             "org": "Vextar Dev Team",
             "role": "Lead Programmer",
@@ -108,15 +108,25 @@
             "org": "Thar Be Monsters",
             "desc": "Run-and-gun action platformer ([Twitter](https://twitter.com/tharbemonsters))",
             "year": "15",
+            "url": "/projects/blubberbusters/",
             "img": "/about-me/tharbemonsters.png",
-            "isCommercial": true
+            "role": "Build Engineer (Contract)",
+            "isCommercial": true,
+            "featured": true,
+            "skills": [
+                "Windows",
+                "C#",
+                "Unity",
+                "Perforce"
+            ],
+            "contribution": "Regularly created and validated builds from trunk after integrating code from other contractors."
         },
         {
             "name": "Sinasprite",
             "org": "Litesprite",
             "desc": "Clinically-validated mental health game ([Android](https://play.google.com/store/apps/details?id=com.litesprite.sinaspritepro)) ([iOS](https://apps.apple.com/us/app/sinasprite/id929681872))",
             "year": "15",
-            "url": "/about-me/#litesprite",
+            "url": "/projects/sinasprite/",
             "img": "/about-me/litesprite.png",
             "role": "Interim Technical Director",
             "isCommercial": true,
@@ -125,7 +135,8 @@
                 "Android",
                 "iOS",
                 "C#",
-                "Unity"
+                "Unity",
+                "Git"
             ],
             "contribution": "Coordinated efforts between engineering, art, design, and leadership while responsible for UI and gameplay systems. Migrated the team from SVN to Git as well as from DGUI to uGUI."
         },
