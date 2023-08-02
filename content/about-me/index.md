@@ -24,7 +24,7 @@ Here's a quick overview of where I've worked in the past:
 
 :calendar: Date | :office: Role                                     | :globe_with_meridians: Links
 ----------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------
-2020 - Present  | **Principal Programmer** at Undisclosed Studio    | N/A
+2020 - 2023     | **Principal Programmer** at Undisclosed Studio    | N/A
 2021 - Present  | **Content Developer** at AIE Seattle              | [Site](https://seattle.aie.edu)
 2014 - Present  | **Game Programming Instructor** at AIE Seattle    | [Site](https://seattle.aie.edu)
 2016 - 2019     | **Lead Programmer** at Vextar Dev Team            | [Site](https://vextar.xyz/), [itch.io](https://vextardevteam.itch.io/vextar)
@@ -33,9 +33,9 @@ Here's a quick overview of where I've worked in the past:
 
 Other positions that are related but outside of game development/academia:
 
-:calendar: Date | :office: Role                                     | :globe_with_meridians: Links
-----------------|---------------------------------------------------|--------------------------------------------------------
-2020 - Present  | **Board Member** at IGDA Seattle | [YouTube](https://www.youtube.com/c/IGDASeattle/videos)
+:calendar: Date | :office: Role                    | :globe_with_meridians: Links
+----------------|----------------------------------|--------------------------------------------------------
+2020 - 2023     | **Board Member** at IGDA Seattle | [YouTube](https://www.youtube.com/c/IGDASeattle/videos)
 
 ## Projects
 

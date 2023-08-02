@@ -9,10 +9,10 @@ date: "2023-04-18T19:32:29-07:00"
 
 ![Banner image for unannounced studio](unannounced.png)
 
-I'm working for an undisclosed studio as its **Principal Programmer**. I am the
+I worked for an undisclosed studio as its **Principal Programmer**. I was the
 _sole engineer_ for the team and work closely with its artists and designers.
 
-I also work regularly with the producer to adjust timelines and plans based on
+I also worked regularly with the producer to adjust timelines and plans based on
 the project's progress.
 
 My major contributions to the project to date:
