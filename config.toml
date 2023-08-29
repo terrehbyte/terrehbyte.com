@@ -72,6 +72,10 @@ enableEmoji = true
     name = "mastodon"
     link = "https://sakurajima.moe/@terrehbyte"
     rel = "me"
+    [[params.social]]
+    name = "bsky"
+    link = "https://bsky.app/profile/terrehbyte.bsky.social"
+    rel = "me"
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
