@@ -8,18 +8,6 @@ navbarid: 2
 
 # Projects
 
-Here's a quick gallery of past game projects I've worked on:
-
-{{% inline-div table-fixed %}}
-
-[![](undiscloseda/cover.webp)](undiscloseda) | [![](vextar/cover.webp)](vextar) | [![](blubberbusters/cover.webp)](blubberbusters) | [![](sinasprite/cover.webp)](sinasprite)
------------------------------|------------------------|--------------------------------|---------------------------
-[**Undisclosed**](undiscloseda)              | [**Vextar**](vextar)             | [**Blubber Busters**](blubberbusters)            | [**Sinasprite**](sinasprite)
-
-{{% /inline-div %}}
-
-## All Works
-
 Here's a list of all the projects, big or small, that I've created or contributed to.
 
 Some projects have _additional information_ available by clicking on its name.
