@@ -16,7 +16,7 @@ Seattle, WA.
 I'm happy to work closely with everyone on a team to work together better and
 create more engaging experiences overall.
 
-{{< socials "You can message me via " >}}
+{{< socials "You can find me online via " >}}
 
 ## Positions
 

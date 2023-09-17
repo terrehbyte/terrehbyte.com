@@ -21,11 +21,11 @@ enableEmoji = true
   intro = """
   **Howdy, I'm Terry (aka terrehbyte)!**
 
-  I work as a **Game Programmer** :gear: and **Educator** :apple: but spare some
-  time for tinkering with **mechanical keyboards** :keyboard: and some
-  **gaming** :video_game: when I can.
+  I work as a :gear: **Game Programmer** and :apple: **Educator** but spare some
+  time for tinkering with :keyboard: **mechanical keyboards** and some
+  :video_game: **gaming** when I can.
 
-  Please reach out if you've got a question or have an opportunity to discuss.
+  Please reach out if you've got a question or have an opportunity to discuss~!
   
   ----
   """
@@ -60,35 +60,46 @@ enableEmoji = true
 
   [[params.social]]
     name = "email"
+    friendly_name = "e-mail"
     link = "terry@terrehbyte.com"  # no need for "mailto:" in the head
+    home = true
+    tags = [ "contact" ]
   [[params.social]]
     name = "github"
     link = "https://github.com/terrehbyte"
+    tags = [ "portfolio" ]
   [[params.social]]
     name = "mastodon"
+    friendly_name = "Gamedev Mastodon"
     link = "https://mastodon.gamedev.place/@terrehbyte"
     rel = "me"
+    tags = [ "social" ]
   [[params.social]]
     name = "mastodon"
+    friendly_name = "Sakurajima Mastodon"
     link = "https://sakurajima.moe/@terrehbyte"
     rel = "me"
-    [[params.social]]
-    name = "bsky"
-    link = "https://bsky.app/profile/terrehbyte.bsky.social"
-    rel = "me"
+    tags = [ "social" ]
   [[params.social]]
     name = "twitter"
     link = "https://twitter.com/terrehbyte"
+    tags = [ "social" ]
   [[params.social]]
     name = "discord"
     link = "/discord"
     target = "_self"
+    tags = [ "social" ]
   [[params.social]]
-    name = "facebook"
-    link = "https://www.facebook.com/terrehbyte/"
+    name = "bsky"
+    link = "https://bsky.app/profile/terrehbyte.bsky.social"
+    rel = "me"
+    tags = [ "social" ]
   [[params.social]]
     name = "linkedin"
+    friendly_name = "LinkedIn"
     link = "https://www.linkedin.com/in/terrehbyte/"
+    home = true
+    tags = [ "contact" ]
 
 [permalinks]
   posts = "/:filename/"

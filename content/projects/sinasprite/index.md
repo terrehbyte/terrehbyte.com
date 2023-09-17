@@ -11,7 +11,7 @@ date: "2023-04-18T19:32:29-07:00"
 I served as the **Interim Technical Director** for its flagship project,
 **Sinasprite**, a clinically-validated mental health care mobile game.
 
-My responsibilities are as follows:
+My responsibilities were as follows:
 
 - Designing and implementing user flows in the client-facing **Unity** app
 - Porting the UI from **Daikon Forge UI** to **Unity UI (uGUI)**
