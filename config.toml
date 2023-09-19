@@ -30,6 +30,13 @@ enableEmoji = true
   ----
   """
   
+  customSectionBody = """
+  ## Featured Works
+  {{< game-covers >}}
+  """
+  customSectionNavLink = "/projects/"
+  customSectionNavLinkLabel = "All Works"
+
   mainSection = "posts" # your main section
   projSection = "/about-me/#projects" # your projects section
   noticesSection = "thirdparty" # your notices section

@@ -8,6 +8,12 @@ navbarid: 2
 
 # Projects
 
+Here's some of the more notable projects that I've worked on:
+
+{{< game-covers >}}
+
+## All Works
+
 Here's a list of all the projects, big or small, that I've created or contributed to.
 
 Some projects have _additional information_ available by clicking on its name.
@@ -16,7 +22,7 @@ Some projects have _additional information_ available by clicking on its name.
 
 :dollar: - denotes a commercial project that launched or had the intent to launch
 
-## Non-Programming
+## Non-Programming Works
 
 Similar to the list above, only focused on non-programming contributions:
 

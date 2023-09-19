@@ -39,6 +39,6 @@ Other positions that are related but outside of game development/academia:
 
 ## Projects
 
-Check out a few notable projects below or a list of everything on the [Projects](/projects/) page:
+Check out a few notable projects below or **a list of everything on the [Projects](/projects/) page**:
 
 {{< projectBanners >}}

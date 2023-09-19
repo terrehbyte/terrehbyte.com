@@ -6,6 +6,10 @@ date: "2023-04-18T19:32:29-07:00"
 
 # Undisclosed Project
 
+**Principal Programmer** at **Undisclosed studio**–2020-2023
+
+----
+
 ![Banner image for unannounced studio](unannounced.png)
 
 I worked for an undisclosed studio as its **Principal Programmer**. I was the

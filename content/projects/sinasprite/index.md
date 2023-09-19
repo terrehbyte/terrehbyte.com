@@ -6,6 +6,11 @@ date: "2023-04-18T19:32:29-07:00"
 ---
 
 # Sinasprite
+
+**Interim Technical Director** at **Litesprite**–2014-2015
+
+----
+
 ![Banner image for Litesprite and Sinasprite](sinasprite.png)
 
 I served as the **Interim Technical Director** for its flagship project,

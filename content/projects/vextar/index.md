@@ -7,6 +7,10 @@ date: "2023-04-18T19:32:29-07:00"
 
 # Vextar
 
+**Lead Programmer** at **Vextar Dev Team**–2016-2019
+
+----
+
 ![Banner image for Vextar Dev Team featuring a screenshot of a Vextar](vextar.png)
 
 I was the **Lead Programmer** for Vextar, a first-person multiplayer
