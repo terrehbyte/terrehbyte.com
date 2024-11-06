@@ -11,11 +11,6 @@
     <a class="icon" target="{{ $elem.target | default "_blank" }}" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
       <i class="fas fa-rss" aria-hidden="true"></i>
     </a>
-    <!-- bluesky not available in FA yet - see https://github.com/FortAwesome/Font-Awesome/issues/19810 -->
-    {{ else if eq $elem.name "bsky" }}
-    <a class="icon" target="{{ $elem.target | default "_blank" }}" rel="noopener" href="{{ $elem.link }}" aria-label="RSS">
-      <i class="fas fa-square" aria-hidden="true"></i>
-    </a>
     {{ else if eq $elem.name "scholar" }}
     <a class="icon" target="{{ $elem.target | default "_blank" }}" rel="noopener" href="{{ $elem.link }}" aria-label="Google Scholar">
       <i class="fas fa-graduation-cap" aria-hidden="true"></i>

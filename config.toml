@@ -64,7 +64,6 @@ enableEmoji = true
 
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
-
   [[params.social]]
     name = "email"
     friendly_name = "e-mail"
@@ -72,9 +71,10 @@ enableEmoji = true
     home = true
     tags = [ "contact" ]
   [[params.social]]
-    name = "github"
-    link = "https://github.com/terrehbyte"
-    tags = [ "portfolio" ]
+    name = "bluesky"
+    link = "https://bsky.app/profile/terrehbyte.com"
+    rel = "me"
+    tags = [ "social" ]
   [[params.social]]
     name = "mastodon"
     friendly_name = "Gamedev Mastodon"
@@ -88,18 +88,9 @@ enableEmoji = true
     rel = "me"
     tags = [ "social" ]
   [[params.social]]
-    name = "twitter"
-    link = "https://twitter.com/terrehbyte"
-    tags = [ "social" ]
-  [[params.social]]
     name = "discord"
     link = "/discord"
     target = "_self"
-    tags = [ "social" ]
-  [[params.social]]
-    name = "bsky"
-    link = "https://bsky.app/profile/terrehbyte.bsky.social"
-    rel = "me"
     tags = [ "social" ]
   [[params.social]]
     name = "linkedin"
@@ -107,6 +98,14 @@ enableEmoji = true
     link = "https://www.linkedin.com/in/terrehbyte/"
     home = true
     tags = [ "contact" ]
+  [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/terrehbyte"
+    tags = [ "social" ]
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/terrehbyte"
+    tags = [ "portfolio" ]
 
 [permalinks]
   posts = "/:filename/"
