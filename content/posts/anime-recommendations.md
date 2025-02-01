@@ -8,7 +8,7 @@ categories:
 - videos
 comments: true
 date: "2012-08-13T00:00:00Z"
-published: false
+draft: true
 redirect_from: /2012/08/13/anime-recommendations/
 title: Anime Recommendations
 ---

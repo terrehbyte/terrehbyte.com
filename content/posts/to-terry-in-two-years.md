@@ -13,7 +13,7 @@ date: "2013-08-25T00:00:00Z"
 excerpt: 'If you are reading this, then it can only mean one of two things: either
   you''re Terry in two years or you''re not Terry and you''re reading this for some
   reason. Either is fine with this Terry, at the very least.'
-published: false
+draft: true
 redirect_from: /2013/08/25/to-terry-in-two-years/
 title: To Terry in Two Years
 ---
