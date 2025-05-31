@@ -1,6 +1,41 @@
 {
     "list": [
         {
+            "name": "Godot Engine Draft PR#101479",
+            "desc": "Add a method to get (global space) AABBs of collision shapes ([GitHub](https://github.com/godotengine/godot/pull/101479))",
+            "year": "25"
+        },
+        {
+            "name": "UATerry",
+            "desc": " UAT locator and command builder for Unreal Engine projects ([GitHub](https://github.com/terrehbyte/UATerry))",
+            "year": "24"
+        },
+        {
+            "name": "terry_motor.gd",
+            "desc": "Custom kinematic motor reimplementation for Godot 4 with expanded featureset",
+            "year": "24"
+        },
+        {
+            "name": "MagickaMod",
+            "desc": "Unofficial patch fixing crash/desync issues for Magicka 1",
+            "year": "23"
+        },
+        {
+            "name": "GDEase",
+            "desc": "Directly drawing to Godot Canvas surfaces for UI + functional implementation of easing curves ([GitHub](https://github.com/terrehbyte/GDEase))",
+            "year": "23"
+        },
+        {
+            "name": "EVATimer",
+            "desc": "Toy project recreating the battery timer screen from Evangelion. Made with Godot 4. ([GitHub](https://github.com/terrehbyte/EVATimer))",
+            "year": "23"
+        },
+        {
+            "name": "EarTrumpet (Fork)",
+            "desc": "Implemented device hiding logic and UI in WPF app ([GitHub](https://github.com/terrehbyte/EarTrumpet))",
+            "year": "23"
+        },
+        {
             "name": "Undisclosed project",
             "org": "Undisclosed studio",
             "isOrgHidden": true,
@@ -37,6 +72,11 @@
         {
             "name": "MoreGizmos",
             "desc": "Extended debug rendering tools for Unity ([GitHub](https://github.com/terrehbyte/MoreGizmos))",
+            "year": "20"
+        },
+        {
+            "name": "Raylib PR#1302",
+            "desc": "Free leaked allocations from render objects when using rlgl with OpenGL ([GitHub](https://github.com/raysan5/raylib/pull/1302))",
             "year": "20"
         },
         {
