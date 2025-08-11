@@ -9,8 +9,9 @@ tagline: Notes on setting up non-web projects in VS Code
 title: VS Code Language Support Notes
 ---
 
-> **Note:** This is an excerpt of my personal notes that I've cleaned up a little for
-> documenting my non-gamedev work and for sharing with others. -Terry
+{{< notice note >}}
+This is an excerpt of my personal notes that I've cleaned up a little for documenting my non-gamedev work and for sharing with others. -Terry
+{{< /notice >}}
 
 Web-oriented tech stack languages like JavaScript or TypeScript ship directly
 with Visual Studio and have built-in support. Extensions are only needed to
