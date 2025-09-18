@@ -50,10 +50,17 @@ download runtimes or SDKs as needed; results will vary.
 **CMake-based** projects are well supported by using a combination of the
 [**C/C++** extension][VSextC/C++] and the [**CMake Tools** extension][VSextCMakeTools],
 both maintained by Microsoft (the latter was originally created by vector-of-bools).
+You can create one directly from VS Code with the above extension by running the
+"**CMake: Quick Start**" command to spawn a "Hello World" project.
 
+Overall, I recommend **using the [CMake Workflow (Commands)](#cmake-workflow-commands)**
+for enabling a _write-debug-test_ workflow that requires minimal setup.
+
+{{< notice info >}}
 CMake is a significant hurdle as it has its own language for describing your
 project on top of C++'s need for you to understand how the underlying build
 tools works (such as when prompted to select a compiler or kit for CMake).
+{{< /notice >}}
 
 **Single file projects** are also somewhat well-supported and are introduced in
 the [quick start tutorials from Microsoft][VScppIntro] on C++ in VS Code. They
@@ -79,19 +86,23 @@ built, launched, and debugged using CMake Tools' commands.
 - **Minimal Setup**
 	1. Open a workspace that contains a project with a populated CMakeLists.txt file
 	2. Select a kit
-	3. Run Command: "**CMake: Debug**" to build and debug your project
-		- Command: "**CMake: Build**" can be used to simply build
+	3. Run Command: "**CMake: Build**" can be used to simply build
+	4. Run Command: "**CMake: Debug**" to build and debug your project
 
 The [CMake Tools extension][CMakeTools] can work with CMake to provide commands
 that provide easy configuration, building, and debugging of CMake-compatible
 projects.
 
+#### Toolbar UI
+
 CMake Tools also adds a lot of UI to VS Code that mimics the experience you
 might find in other IDEs, allowing you to build/debug with your mouse instead
 of your keyboard.
 
-- **Activity Bar** gets a "CMake" activity that lets you inspect project status, browse project files, or run pinned commands
-- **Status Bar** gets a variety of actions like building, debugging, selecting a kit, or changing the project configuration
+- **Activity Bar** gets a "CMake" activity that lets you inspect project status,
+browse project files, or run pinned commands.
+- **Status Bar** gets a variety of actions like building, debugging, selecting a
+kit, or changing the project configuration.
 
 ### CMake Workflow (Configuration)
 
@@ -107,8 +118,14 @@ partially resolved by CMake Tools.
 	2. Select a kit
 	3. Run Command: "**Task: Configure Default Build Task**" and select "**CMake: build**" to generate a working tasks.json file
 		- See [CMake Tools: Configure with CMake Tools tasks/Build with CMake Tools tasks][CMakeToolsTasks] for more information
-	4. Create a launch.json and manually write a configuration for debugging your project
+	4. Create a **launch.json** and manually write a configuration for debugging your project
 		- See [CMake Tools: Debug and launch/Debug using a launch.json file][CMakeToolsDebug] for examples for different debuggers
+
+{{< notice info >}}
+Creating a **launch.json** will **tie you to a specific debugger**, which can be
+unideal if you want a cross-platform launch configuration or if you want
+different debuggers on different platforms.
+{{< /notice >}}
 
 [CMakeToolsTasks]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/tasks.md#build-with-cmake-tools-tasks
 [CMakeToolsDebug]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md#debug-using-a-launchjson-file
