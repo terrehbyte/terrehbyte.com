@@ -36,6 +36,11 @@
             "year": "23"
         },
         {
+            "name": "p4me",
+            "desc": "Command-line utilities for managing a small (<100 user) Perforce server including user pruning scripts and one-click revert of (exclusive) checked out files. ([GitHub](https://github.com/AIE-Seattle-Prog/p4me))",
+            "year": "23"
+        },
+        {
             "name": "Undisclosed project",
             "org": "Undisclosed studio",
             "isOrgHidden": true,
