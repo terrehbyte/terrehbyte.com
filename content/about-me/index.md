@@ -24,9 +24,10 @@ Here's a quick overview of where I've worked in the past:
 
 :calendar: Date | :office: Role                                     | :globe_with_meridians: Links
 ----------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------
-2021 - Present  | **Content Developer** at AIE Seattle              | [Site](https://seattle.aie.edu)
+2025 - Present  | **Independent Game Developer**                    |  N/A
+2021 - Present  | [**Content Developer**](/projects/contentDevelopmentAIE) at AIE Seattle              | [Site](https://seattle.aie.edu)
 2020 - 2023     | **Principal Programmer** at Undisclosed Studio    | N/A
-2014 - Present  | **Game Programming Instructor** at AIE Seattle    | [Site](https://seattle.aie.edu)
+2014 - Present  | [**Game Programming Instructor**](/projects/gameProgrammingAIE) at AIE Seattle    | [Site](https://seattle.aie.edu)
 2016 - 2019     | **Lead Programmer** on Vextar Dev Team            | [Site](https://vextar.xyz/), [itch.io](https://vextardevteam.itch.io/vextar)
 2015            | **Build Engineer (Contract)** at Thar Be Monsters | [Site](https://thar-be-monsters.tumblr.com/)
 2014 - 2015     | **Interim Technical Director** at Litesprite      | [Site](https://litesprite.com/), [Play Store](https://play.google.com/store/apps/details?id=com.litesprite.sinaspritepro)

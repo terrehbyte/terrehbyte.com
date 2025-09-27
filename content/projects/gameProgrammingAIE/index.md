@@ -12,17 +12,21 @@ date: "2023-04-18T19:32:29-07:00"
 I'm a faculty member working as a **Game Programming Instructor** at [**AIE
 Seattle**](https://seattle.aie.edu). I help deliver a two year course training
 students to be ready to work in entry-level positions in games. Our work is
-joined by the Game Art and 3D Animation; and Game Design and Production;
+joined by the Game Art and 3D Animation; and Game Design and Production
 departments.
 
-I also work on the **Content Development** team, resolving errors in learning
+I also work on the [**Content Development**](/projects/contentDevelopmentAIE) team, resolving errors in learning
 materials and writing entire subjects as necessary.
 
-My responsibilities are as follows:
+## Responsibilities
 
+- Supporting students in AIE's very first and second release on the **Steam storefront**:
+  1. [The Most Epicest Snowball Fight Ever!](https://store.steampowered.com/app/3884730/The_Most_Epicest_Snowball_Fight_Ever/)
+  2. [License to Grill](https://store.steampowered.com/app/3884700/License_to_Grill/)
+- Maintaining [AIE Seattle's itch.io](https://aieseattle.itch.io/) page
 - **Delivering all course content** and **mentoring students** in their learning
   - Focus on programming fundamentals in Year 1 (C++, C#, Code Design, Data Structures, Game Math)
-  - Focus on domain-specific knowledge in Year 2 (Computer Graphics, Real-Time Physics)
+  - Focus on domain-specific knowledge in Year 2 (Computer Graphics, Real-Time Game Physics)
 - Coaching students on their **career plans** and the steps needed to achieve them
 - Serving as the on-site **Perforce server administrator**
   - Set up **P4 Typemap** with correct **settings for Unity and Unreal Engine projects**
@@ -34,6 +38,8 @@ My responsibilities are as follows:
 - Planning and **coordinating concurrent student productions** for Year 1 and Year 2 students
 - Liasoning remotely with other US campuses and leadership in Australia
 - Coordinating with the AIE Marketing department to hand-off and **promote student work**
+
+## Student Success
 
 Each year, AIE Seattle faculty support students as they design, implement, and
 release a number of student games from its end-of-year production projects.
