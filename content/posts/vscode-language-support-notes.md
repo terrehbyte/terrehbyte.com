@@ -9,9 +9,8 @@ tagline: Notes on setting up non-web projects in VS Code
 title: VS Code Language Support Notes
 ---
 
-{{< notice note >}}
-This is an excerpt of my personal notes that I've cleaned up a little for documenting my non-gamedev work and for sharing with others. -Terry
-{{< /notice >}}
+> [!NOTE]
+> This is an excerpt of my personal notes that I've cleaned up a little for documenting my non-gamedev work and for sharing with others. -Terry
 
 Web-oriented tech stack languages like JavaScript or TypeScript ship directly
 with Visual Studio and have built-in support. Extensions are only needed to
@@ -56,11 +55,10 @@ You can create one directly from VS Code with the above extension by running the
 Overall, I recommend **using the [CMake Workflow (Commands)](#cmake-workflow-commands)**
 for enabling a _write-debug-test_ workflow that requires minimal setup.
 
-{{< notice info >}}
-CMake is a significant hurdle as it has its own language for describing your
-project on top of C++'s need for you to understand how the underlying build
-tools works (such as when prompted to select a compiler or kit for CMake).
-{{< /notice >}}
+> [!NOTE]
+> CMake is a significant hurdle as it has its own language for describing your
+> project on top of C++'s need for you to understand how the underlying build
+> tools works (such as when prompted to select a compiler or kit for CMake).
 
 **Single file projects** are also somewhat well-supported and are introduced in
 the [quick start tutorials from Microsoft][VScppIntro] on C++ in VS Code. They
@@ -121,11 +119,10 @@ partially resolved by CMake Tools.
 	4. Create a **launch.json** and manually write a configuration for debugging your project
 		- See [CMake Tools: Debug and launch/Debug using a launch.json file][CMakeToolsDebug] for examples for different debuggers
 
-{{< notice info >}}
-Creating a **launch.json** will **tie you to a specific debugger**, which can be
-unideal if you want a cross-platform launch configuration or if you want
-different debuggers on different platforms.
-{{< /notice >}}
+> [!INFO]
+> Creating a **launch.json** will **tie you to a specific debugger**, which can be
+> unideal if you want a cross-platform launch configuration or if you want
+> different debuggers on different platforms.
 
 [CMakeToolsTasks]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/tasks.md#build-with-cmake-tools-tasks
 [CMakeToolsDebug]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md#debug-using-a-launchjson-file

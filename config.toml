@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Terry Nguyen"
-theme = ["hugo-notice", "cactus"]
+theme = ["hugo-admonitions", "cactus"]
 copyright = "Terry Nguyen" # cactus will use title if copyright is not set
 enableEmoji = true
 
