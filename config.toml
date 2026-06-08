@@ -1,5 +1,5 @@
 baseURL = "/"
-languageCode = "en-us"
+locale = "en-us"
 title = "Terry Nguyen"
 theme = ["hugo-admonitions", "cactus"]
 copyright = "Terry Nguyen" # cactus will use title if copyright is not set
@@ -8,7 +8,7 @@ enableEmoji = true
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
 # googleAnalytics = "UA-55657788-1"
 
-[params]
+[params]  
   colortheme = "terry" # dark, light, white, classic, or terry (based on white)
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
@@ -58,6 +58,10 @@ enableEmoji = true
 
   showMobileMenu = false
 
+  [params.author]
+    name = "Terry Nguyen"
+    email = "terry@terrehbyte.com"
+
   #[params.comments]
    # enabled = false # default
     #engine = "disqus" # more supported engines will be added.
@@ -106,9 +110,8 @@ enableEmoji = true
     name = "github"
     link = "https://github.com/terrehbyte"
     tags = [ "portfolio" ]
-
 [permalinks]
-  posts = "/:filename/"
+  posts = "/:contentbasename/"
 
 # Main menu which appears below site header.
 [[menu.main]]
