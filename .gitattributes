@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# Windows-only files
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Unix-only fiels
+*.sh text eol=lf
