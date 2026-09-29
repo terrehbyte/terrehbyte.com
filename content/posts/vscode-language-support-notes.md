@@ -12,60 +12,91 @@ title: VS Code Language Support Notes
 > [!NOTE]
 > This is an excerpt of my personal notes that I've cleaned up a little for documenting my non-gamedev work and for sharing with others. -Terry
 
-Web-oriented tech stack languages like JavaScript or TypeScript ship directly
-with Visual Studio and have built-in support. Extensions are only needed to
-further enhance the developer experience when working with specific frameworks.
+Using VS Code for something other than web development can be a challenge.
+Whereas something like bonafide Visual Studio has a well-defined structure for
+project configuration and build/debug operations, VS Code does not.
 
-Other languages or frameworks like C++ or C# can be incrementally added via
-other first-party extensions maintained by Microsoft of third-party extensions
-from others.
+In this post, I'll walk through some of the approaches I have for working with
+more traditional desktop-oriented projects:
 
-Since the task system allows you to execute shell commands, anything that offers
-a CLI app or script for building it can be built by VS Code. Instead, the focus
-of this article will be to identify languages that can support the following:
+- [C++](#c-cpp)
 
-1. **Language Server Support (LSP)** for auto-complete/IntelliSense
+## Goals
+
+Any programming language or environment I use with VS Code should ideally
+support the following features:
+
+1. **Language Server Protocol (LSP)** support for auto-complete/IntelliSense/code feedback
 2. **Task Configuration** for triggering builds, executing tests
 3. **Launch Configuration** for launching and debugging
 
-The ability to **generate configurations is preferred** over using specialized
-commands for projects that follow the "write, build, run" paradigm would allow
-you to maintain the same UX regardless of project type instead of remembering
-specific commands for specific types of projects.
+Real-time programming feedback can be provided by any environment that
+implementing a language server that VS Code can connect to. As you write code,
+you can get usual error squiggles or auto-complete like as you would in a
+dedicated IDE.
 
-The process of **creating a new project in VS Code is complex** as it requires
+In lieu of a project configuration, we have **Tasks**, which encapsulate common
+operations like building or debugging into things that can tie into the VS Code
+interface almost as though support for something was built-in. Tasks can run
+anything from VS Code commands to shell commands, allowing you to support just
+about any environment with enough determination.
+
+The ability to **generate configurations is preferred** over using specialized
+commands for projects that follow the "write, build, run" paradigm. This favors
+using the **same UX regardless of project type** instead of remembering
+specific commands for specific types of projects. Configurations also offer a
+rich set of properties in a consistent location.
+
+### Warning: VS Code is Complicated
+
+**Creating a new project in VS Code is complicated** as it requires
 human intervention, may differ greatly between project types, and may automate
-certain steps in some cases or not in others. Users seeking a turnkey experience
-that allows then to hit "New Project" and have few, if any steps, to follow to
-achieve something ready to work with should consider alternatives like Visual
+certain steps in some cases or not in others.
+
+Users seeking a **turnkey experience** that allows them to hit "New Project" and
+have something ready to work with should consider alternatives like Visual
 Studio or JetBrains Rider.
 
-Additionally, installing dependencies for working with various languages or
-project types is often left to the user. Some languages can automatically
-download runtimes or SDKs as needed; results will vary.
-
-## C++
+## C++ (Cpp)
 
 **CMake-based** projects are well supported by using a combination of the
 [**C/C++** extension][VSextC/C++] and the [**CMake Tools** extension][VSextCMakeTools],
-both maintained by Microsoft (the latter was originally created by vector-of-bools).
-You can create one directly from VS Code with the above extension by running the
-"**CMake: Quick Start**" command to spawn a "Hello World" project.
+both maintained by Microsoft (the latter was originally created by
+[vector-of-bools](https://github.com/vector-of-bool)).
 
-Overall, I recommend **using the [CMake Workflow (Commands)](#cmake-workflow-commands)**
-for enabling a _write-debug-test_ workflow that requires minimal setup.
+You can create a CMake project directly from VS Code with the above extension by
+running the "**CMake: Quick Start**" command to spawn a "Hello World" project.
 
-> [!NOTE]
+Recommendations for a _write-debug-test_ setup:
+
+1. [CMake Workflow (Configuration)](#cmake-workflow-configuration) :sparkles:
+2. [CMake Workflow (Commands)](#cmake-workflow-commands)
+3. [Manual Workflow](#manual-workflow)
+
+> [!WARNING]
 > CMake is a significant hurdle as it has its own language for describing your
 > project on top of C++'s need for you to understand how the underlying build
 > tools works (such as when prompted to select a compiler or kit for CMake).
 
-**Single file projects** are also somewhat well-supported and are introduced in
-the [quick start tutorials from Microsoft][VScppIntro] on C++ in VS Code. They
-focus on building and debugging by directly invoking the build tools and
-debugger through the task and launch configurations. They are included since
-they are a part of the official instructions, but I don't personally use it
-since a CMake project is a little more portable.
+CMake Tools also contributes some helpful UI elements that may be familiar to anyone
+coming from full-fledged IDE:
+
+The **Activity Bar** gets a "CMake" activity that lets you inspect project status, 
+browse project files, or run pinned commands.
+
+The **Status Bar** gets a variety of actions like building, debugging, selecting a
+kit, or changing the project configuration.
+
+<!-- ![Configure the "Build Variant", "Kit", "Build Target", and "Launch Target" via the Status Bar](files/vscode-cmaketools-statusbar.png) -->
+
+> [!NOTE]
+> **Single file projects** are also somewhat well-supported and are
+> introduced in the [quick start tutorials from Microsoft][VScppIntro] on C++ in
+> VS Code. They focus on building and debugging by directly invoking the build
+> tools and debugger through the task and launch configurations.
+>
+> I don't personally use it since my projects usually more complex than 1-2
+> source files.
 
 [VSextC/C++]:https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
 [VSextCMakeTools]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md
@@ -73,59 +104,105 @@ since a CMake project is a little more portable.
 [VScppIntro]:https://code.visualstudio.com/docs/cpp/introvideos-cpp
 [CMakeTools]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md
 
-### CMake Workflow (Commands)
-
-CMake projects with CMakeLists.txt files can define targets that can be
-built, launched, and debugged using CMake Tools' commands.
-
-- **Extensions**
-	- [C/C++][VSextC/C++] from Microsoft
-	- [CMake Tools][VSextCMakeTools] from Microsoft
-- **Minimal Setup**
-	1. Open a workspace that contains a project with a populated CMakeLists.txt file
-	2. Select a kit
-	3. Run Command: "**CMake: Build**" can be used to simply build
-	4. Run Command: "**CMake: Debug**" to build and debug your project
-
-The [CMake Tools extension][CMakeTools] can work with CMake to provide commands
-that provide easy configuration, building, and debugging of CMake-compatible
-projects.
-
-#### Toolbar UI
-
-CMake Tools also adds a lot of UI to VS Code that mimics the experience you
-might find in other IDEs, allowing you to build/debug with your mouse instead
-of your keyboard.
-
-- **Activity Bar** gets a "CMake" activity that lets you inspect project status,
-browse project files, or run pinned commands.
-- **Status Bar** gets a variety of actions like building, debugging, selecting a
-kit, or changing the project configuration.
-
 ### CMake Workflow (Configuration)
 
-CMake projects with CMakeLists.txt files can also be built/run/debugged with
-task configurations that invoke CMake Tools and launch configurations that are
-partially resolved by CMake Tools.
+CMake projects can be built/run/debugged with task configurations that
+invoke CMake Tools and launch configurations that are partially resolved by
+CMake Tools.
 
 - **Extensions**
 	- [C/C++][VSextC/C++] from Microsoft
 	- [CMake Tools][VSextCMakeTools] from Microsoft
 - **Minimal Setup**
-	1. Open a workspace that contains a project with a populated CMakeLists.txt file
-	2. Select a kit
-	3. Run Command: "**Task: Configure Default Build Task**" and select "**CMake: build**" to generate a working tasks.json file
-		- See [CMake Tools: Configure with CMake Tools tasks/Build with CMake Tools tasks][CMakeToolsTasks] for more information
-	4. Create a **launch.json** and manually write a configuration for debugging your project
+	1. Open a workspace that contains a CMakeLists.txt file
+	2. Follow on-screen prompts (e.g., Select a kit, Select a Configure preset ...)
+	3. _Wait for it to finish configuring_
+	4. Run Command: "**Task: Configure Default Build Task**" and select "**CMake: build**" to generate a working tasks.json file
+		- See [CMake Tools: Build with CMake Tools tasks][CMakeToolsTasks] for more information
+	5. Create a **launch.json** and manually write a configuration for debugging your project
 		- See [CMake Tools: Debug and launch/Debug using a launch.json file][CMakeToolsDebug] for examples for different debuggers
 
+Sample `tasks.json` and `launch.json` provided respectively:
+
+#### tasks.json
+
+```jsonc
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cmake",
+			"label": "CMake: build",
+			"command": "build",
+			"targets": [
+				"ALL_BUILD"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"detail": "CMake template build task"
+		}
+	]
+}
+```
+
+#### launch.json
+
+```jsonc
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(msvc) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            // Resolved by CMake Tools:
+            "program": "${command:cmake.launchTargetPath}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    // add the directory where our target was built to the PATHs
+                    // it gets resolved by CMake Tools:
+                    "name": "PATH",
+                    "value": "${env:PATH}:${command:cmake.getLaunchTargetDirectory}"
+                },
+                {
+                    "name": "OTHER_VALUE",
+                    "value": "Something something"
+                }
+            ],
+            "externalConsole": true
+        }
+    ]
+}
+```
+
 > [!INFO]
-> Creating a **launch.json** will **tie you to a specific debugger**, which can be
-> unideal if you want a cross-platform launch configuration or if you want
-> different debuggers on different platforms.
+> Creating a **launch.json** will **tie you to a specific debugger**, which can
+> be unideal if you want a cross-platform launch configuration or want different
+> debuggers on different platforms.
 
 [CMakeToolsTasks]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/tasks.md#build-with-cmake-tools-tasks
 [CMakeToolsDebug]:https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md#debug-using-a-launchjson-file
+
+### CMake Workflow (Commands)
+
+CMake projects with CMakeLists.txt files can define targets that can be
+built, launched, and debugged directly using CMake Tools' commands.
+
+- **Extensions**
+	- [C/C++][VSextC/C++] from Microsoft
+	- [CMake Tools][VSextCMakeTools] from Microsoft
+- **Minimal Setup**
+	1. Open a workspace that contains a project with a populated CMakeLists.txt file
+	2. Follow on-screen prompts (e.g., Select a kit, Select a Configure preset ...)
+	3. _Wait for it to finish configuring_
+	4. Run Command: "**CMake: Build**" can be used to build the current build target
+	5. Run Command: "**CMake: Debug**" to build and debug the current debug target
 
 ### Manual Workflow
 
